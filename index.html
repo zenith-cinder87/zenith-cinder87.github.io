@@ -1,0 +1,1777 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>周希妍无极圣光 - 官方影像门户,原创光影品牌内容生态</title>
+<meta name="description" content="周希妍无极圣光官方网站，专注原创光影影像与人物故事的品牌视频门户，呈现品牌故事、精品内容与创作者动态，打造值得信赖的高品质内容生态。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23ffb648'/%3E%3Cstop offset='1' stop-color='%236b4bff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx='32' cy='32' r='30' fill='url(%23g)'/%3E%3Cpath d='M24 20 L46 32 L24 44 Z' fill='%23fff8ee'/%3E%3C/svg%3E">
+<style>
+:root{
+  --zx-stone:#2b2431;
+  --zx-stone-deep:#1d1822;
+  --zx-violet:#6b4bff;
+  --zx-violet-soft:#a08cff;
+  --zx-amber:#ffb648;
+  --zx-milk:#f6f1ea;
+  --zx-milk-warm:#fbf7f1;
+  --zx-line:rgba(43,36,49,.12);
+  --zx-line-dark:rgba(255,248,238,.16);
+  --zx-text:#2b2431;
+  --zx-text-soft:#6c6377;
+  --zx-text-invert:#f6f1ea;
+  --zx-shadow:0 18px 44px -22px rgba(43,36,49,.45);
+  --zx-radius:18px;
+  --zx-head-h:70px;
+  --zx-ann-h:40px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--zx-head-h) + var(--zx-ann-h) + 12px)}
+body{
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+  background:var(--zx-milk);
+  color:var(--zx-text);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img,svg{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font:inherit;cursor:pointer;border:none;background:none;color:inherit}
+ul{list-style:none}
+.zx-wrap{width:min(1180px,92vw);margin:0 auto}
+
+/* ============ 公告条 + 页头 吸顶 ============ */
+.zx-sticky-stack{position:sticky;top:0;z-index:90}
+.zx-announce{
+  background:linear-gradient(90deg,var(--zx-stone-deep),var(--zx-violet) 55%,#3a2d63);
+  color:var(--zx-text-invert);
+  height:var(--zx-ann-h);
+  display:flex;align-items:center;
+  font-size:13px;
+  overflow:hidden;
+}
+.zx-announce .zx-wrap{display:flex;align-items:center;gap:14px;min-width:0}
+.zx-announce-tag{
+  flex:none;
+  background:var(--zx-amber);color:var(--zx-stone-deep);
+  font-weight:700;font-size:11px;letter-spacing:.12em;
+  padding:3px 9px;border-radius:999px;
+}
+.zx-announce-track{display:flex;gap:36px;white-space:nowrap;overflow:hidden;mask-image:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent)}
+.zx-announce-item{opacity:.92}
+.zx-announce-item b{color:var(--zx-amber);font-weight:600}
+.zx-announce-more{margin-left:auto;flex:none;font-size:12px;opacity:.85;border-bottom:1px solid rgba(255,255,255,.4);padding-bottom:1px}
+
+.zx-header{
+  height:var(--zx-head-h);
+  background:rgba(251,247,241,.92);
+  backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--zx-line);
+}
+.zx-header .zx-wrap{height:100%;display:flex;align-items:center;gap:26px}
+.zx-logo{display:flex;align-items:center;gap:11px;flex:none}
+.zx-logo-mark{width:38px;height:38px;border-radius:11px;background:linear-gradient(135deg,var(--zx-amber),var(--zx-violet));display:grid;place-items:center;box-shadow:0 6px 16px -6px rgba(107,75,255,.7)}
+.zx-logo-mark svg{width:18px;height:18px}
+.zx-logo-text{display:flex;flex-direction:column;line-height:1.1}
+.zx-logo-text b{font-size:16px;letter-spacing:.04em}
+.zx-logo-text span{font-size:10px;letter-spacing:.28em;color:var(--zx-text-soft);text-transform:uppercase}
+.zx-nav{display:flex;gap:4px;margin-left:8px}
+.zx-nav a{padding:8px 12px;border-radius:9px;font-size:14px;color:var(--zx-text-soft);transition:.22s}
+.zx-nav a:hover{color:var(--zx-stone);background:rgba(107,75,255,.09)}
+.zx-head-tools{margin-left:auto;display:flex;align-items:center;gap:10px}
+.zx-search{position:relative;display:flex;align-items:center}
+.zx-search input{
+  width:196px;height:38px;border-radius:999px;
+  border:1px solid var(--zx-line);background:#fff;
+  padding:0 40px 0 16px;font-size:13px;color:var(--zx-text);
+  outline:none;transition:.24s;
+}
+.zx-search input:focus{width:240px;border-color:var(--zx-violet);box-shadow:0 0 0 3px rgba(107,75,255,.14)}
+.zx-search button{position:absolute;right:6px;width:28px;height:28px;border-radius:50%;background:var(--zx-stone);display:grid;place-items:center}
+.zx-search button svg{width:13px;height:13px;stroke:var(--zx-milk);fill:none;stroke-width:2.1}
+.zx-search-tip{
+  position:absolute;top:46px;right:0;width:290px;background:#fff;border:1px solid var(--zx-line);
+  border-radius:14px;box-shadow:var(--zx-shadow);padding:12px;font-size:13px;display:none;z-index:40;
+}
+.zx-search-tip.on{display:block}
+.zx-search-tip p{color:var(--zx-text-soft);margin-bottom:8px;font-size:12px}
+.zx-search-tip span{display:inline-block;background:var(--zx-milk);border:1px solid var(--zx-line);border-radius:999px;padding:3px 10px;margin:3px 4px 0 0;font-size:12px;cursor:pointer;transition:.2s}
+.zx-search-tip span:hover{background:var(--zx-violet);color:#fff;border-color:var(--zx-violet)}
+.zx-btn{
+  display:inline-flex;align-items:center;gap:7px;height:38px;padding:0 18px;
+  border-radius:999px;font-size:13.5px;font-weight:600;transition:.24s;white-space:nowrap;
+}
+.zx-btn-primary{background:var(--zx-stone);color:var(--zx-milk)}
+.zx-btn-primary:hover{background:var(--zx-violet);transform:translateY(-1px)}
+.zx-btn-ghost{border:1px solid var(--zx-line);color:var(--zx-stone)}
+.zx-btn-ghost:hover{border-color:var(--zx-stone);background:#fff}
+.zx-menu-toggle{display:none;width:40px;height:40px;border-radius:10px;border:1px solid var(--zx-line);place-items:center;background:#fff}
+.zx-menu-toggle svg{width:18px;height:18px;stroke:var(--zx-stone);stroke-width:2.2;fill:none}
+
+/* ============ 首屏 HERO ============ */
+.zx-hero{position:relative;background:var(--zx-stone-deep);color:var(--zx-text-invert);overflow:hidden;padding:64px 0 72px}
+.zx-hero::before{
+  content:"";position:absolute;inset:0;
+  background:
+    radial-gradient(720px 380px at 78% 12%,rgba(255,182,72,.26),transparent 62%),
+    radial-gradient(640px 420px at 14% 88%,rgba(107,75,255,.42),transparent 66%);
+  pointer-events:none;
+}
+.zx-hero-grid{position:relative;display:grid;grid-template-columns:1.05fr 1fr;gap:52px;align-items:center}
+.zx-hero-kicker{
+  display:inline-flex;align-items:center;gap:9px;font-size:11.5px;letter-spacing:.24em;
+  color:var(--zx-amber);border:1px solid rgba(255,182,72,.4);border-radius:999px;padding:5px 14px;margin-bottom:20px;
+}
+.zx-hero h1{
+  font-size:clamp(38px,5.6vw,62px);line-height:1.1;letter-spacing:.02em;font-weight:800;
+  background:linear-gradient(100deg,#fff8ee 12%,var(--zx-amber) 60%,var(--zx-violet-soft));
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.zx-hero-sub{font-size:15px;color:rgba(246,241,234,.78);margin-top:16px;max-width:32em}
+.zx-hero-desc{margin-top:22px;font-size:14.5px;line-height:1.95;color:rgba(246,241,234,.66);max-width:34em}
+.zx-hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.zx-hero-actions .zx-btn-primary{background:var(--zx-amber);color:var(--zx-stone-deep)}
+.zx-hero-actions .zx-btn-primary:hover{background:#ffc874}
+.zx-hero-actions .zx-btn-ghost{border-color:rgba(246,241,234,.32);color:var(--zx-text-invert)}
+.zx-hero-actions .zx-btn-ghost:hover{background:rgba(246,241,234,.12);border-color:rgba(246,241,234,.6)}
+.zx-hero-stats{display:flex;gap:34px;margin-top:38px;flex-wrap:wrap}
+.zx-hero-stat b{display:block;font-size:26px;font-weight:800;color:var(--zx-amber);letter-spacing:.01em}
+.zx-hero-stat span{font-size:12px;color:rgba(246,241,234,.55);letter-spacing:.06em}
+
+.zx-hero-visual{position:relative}
+.zx-hero-frame{
+  position:relative;border-radius:26px;overflow:hidden;
+  border:1px solid rgba(255,248,238,.18);
+  box-shadow:0 40px 80px -40px rgba(0,0,0,.85);
+  aspect-ratio:16/10;
+  background:#171322;
+}
+.zx-hero-frame svg{width:100%;height:100%}
+.zx-hero-play{
+  position:absolute;inset:0;display:grid;place-items:center;
+}
+.zx-hero-play button{
+  width:72px;height:72px;border-radius:50%;
+  background:rgba(255,248,238,.16);backdrop-filter:blur(6px);
+  border:1px solid rgba(255,248,238,.5);display:grid;place-items:center;transition:.28s;
+}
+.zx-hero-play button:hover{transform:scale(1.09);background:var(--zx-amber);border-color:var(--zx-amber)}
+.zx-hero-play button svg{width:22px;height:22px;fill:var(--zx-milk);margin-left:3px}
+.zx-hero-play button:hover svg{fill:var(--zx-stone-deep)}
+.zx-hero-badge{
+  position:absolute;left:16px;bottom:16px;display:flex;align-items:center;gap:9px;
+  background:rgba(29,24,34,.7);backdrop-filter:blur(8px);border:1px solid rgba(255,248,238,.16);
+  border-radius:999px;padding:6px 14px 6px 8px;font-size:12px;
+}
+.zx-hero-badge i{width:22px;height:22px;border-radius:50%;background:linear-gradient(135deg,var(--zx-amber),var(--zx-violet));display:block}
+.zx-hero-float{
+  position:absolute;right:-14px;top:-18px;
+  background:var(--zx-milk-warm);color:var(--zx-stone);border-radius:14px;
+  padding:10px 16px;font-size:12px;font-weight:600;box-shadow:var(--zx-shadow);
+  display:flex;align-items:center;gap:8px;
+}
+.zx-hero-float em{font-style:normal;color:var(--zx-violet);font-size:16px;font-weight:800}
+
+/* ============ 通用 section 结构 ============ */
+.zx-section{padding:72px 0}
+.zx-section-alt{background:var(--zx-milk-warm)}
+.zx-sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:34px;flex-wrap:wrap}
+.zx-sec-head h2{font-size:clamp(23px,3vw,31px);line-height:1.25;letter-spacing:.01em;font-weight:800}
+.zx-sec-head h2 em{font-style:normal;color:var(--zx-violet)}
+.zx-sec-head p{font-size:13.5px;color:var(--zx-text-soft);max-width:30em;margin-top:8px}
+.zx-sec-link{font-size:13px;font-weight:600;color:var(--zx-violet);border-bottom:1px solid rgba(107,75,255,.35);padding-bottom:2px;white-space:nowrap}
+
+/* ============ 焦点内容 ============ */
+.zx-focus-grid{display:grid;grid-template-columns:1.35fr 1fr;gap:22px}
+.zx-focus-main{
+  position:relative;border-radius:var(--zx-radius);overflow:hidden;min-height:340px;
+  display:flex;align-items:flex-end;color:var(--zx-text-invert);
+  box-shadow:var(--zx-shadow);
+}
+.zx-focus-main svg{z-index:0}
+.zx-focus-main .zx-cover-mask{position:absolute;inset:0;background:linear-gradient(0deg,rgba(20,15,26,.9) 6%,rgba(20,15,26,.16) 56%,transparent)}
+.zx-focus-main-body{position:relative;z-index:2;padding:26px 26px 24px}
+.zx-focus-main-body h3{font-size:21px;line-height:1.35;margin-bottom:9px}
+.zx-focus-main-body p{font-size:13px;color:rgba(246,241,234,.74);line-height:1.8;max-width:34em}
+.zx-focus-side{display:grid;gap:18px}
+.zx-focus-mini{
+  position:relative;display:grid;grid-template-columns:132px 1fr;gap:15px;align-items:center;
+  background:#fff;border:1px solid var(--zx-line);border-radius:14px;padding:12px;transition:.26s;
+}
+.zx-focus-mini:hover{transform:translateY(-3px);box-shadow:var(--zx-shadow);border-color:rgba(107,75,255,.4)}
+.zx-focus-mini-thumb{position:relative;border-radius:10px;overflow:hidden;aspect-ratio:16/10}
+.zx-focus-mini-thumb svg{width:100%;height:100%}
+.zx-focus-mini-body h4{font-size:14.5px;line-height:1.45;margin-bottom:6px}
+.zx-focus-mini-body p{font-size:12px;color:var(--zx-text-soft);line-height:1.7}
+.zx-meta-row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:11.5px;color:var(--zx-text-soft);margin-top:8px}
+.zx-tag{background:rgba(107,75,255,.1);color:var(--zx-violet);border-radius:999px;padding:2px 9px;font-size:11px;font-weight:600}
+.zx-tag-amber{background:rgba(255,182,72,.2);color:#a56800}
+
+/* ============ 视频流 卡片 ============ */
+.zx-video-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.zx-video-card{
+  background:#fff;border:1px solid var(--zx-line);border-radius:16px;overflow:hidden;
+  display:flex;flex-direction:column;transition:.28s;
+}
+.zx-video-card:hover{transform:translateY(-5px);box-shadow:var(--zx-shadow);border-color:rgba(107,75,255,.36)}
+.zx-cover{position:relative;aspect-ratio:16/9;overflow:hidden;background:#241d2e}
+.zx-cover svg{width:100%;height:100%;transition:transform .5s}
+.zx-video-card:hover .zx-cover svg{transform:scale(1.05)}
+.zx-cover-mask{position:absolute;inset:0;background:linear-gradient(0deg,rgba(20,15,26,.78),rgba(20,15,26,0) 55%)}
+.zx-cover-play{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+  width:46px;height:46px;border-radius:50%;background:rgba(255,248,238,.2);
+  border:1px solid rgba(255,248,238,.55);display:grid;place-items:center;transition:.26s;
+}
+.zx-cover-play svg{width:15px;height:15px;fill:var(--zx-milk);margin-left:2px}
+.zx-video-card:hover .zx-cover-play{background:var(--zx-amber);border-color:var(--zx-amber)}
+.zx-video-card:hover .zx-cover-play svg{fill:var(--zx-stone-deep)}
+.zx-cover-label{position:absolute;left:12px;top:12px;background:rgba(29,24,34,.72);color:var(--zx-milk);font-size:11px;border-radius:6px;padding:2px 8px;letter-spacing:.04em}
+.zx-cover-duration{position:absolute;right:12px;bottom:12px;background:rgba(29,24,34,.76);color:var(--zx-milk);font-size:11px;border-radius:6px;padding:1px 7px}
+.zx-card-body{padding:16px 17px 17px;display:flex;flex-direction:column;flex:1;gap:9px}
+.zx-card-body h4{font-size:15.5px;line-height:1.45;font-weight:700}
+.zx-card-body p{font-size:12.5px;color:var(--zx-text-soft);line-height:1.75;flex:1}
+.zx-card-author{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--zx-text-soft);margin-top:2px}
+.zx-avatar{width:26px;height:26px;border-radius:50%;display:grid;place-items:center;font-size:11px;font-weight:700;color:#fff;flex:none}
+.zx-card-actions{display:flex;align-items:center;gap:10px;border-top:1px solid var(--zx-line);padding-top:11px;margin-top:4px}
+.zx-act{display:inline-flex;align-items:center;gap:5px;font-size:12px;color:var(--zx-text-soft);transition:.2s;padding:3px 6px;border-radius:7px}
+.zx-act:hover{background:rgba(107,75,255,.1);color:var(--zx-violet)}
+.zx-act svg{width:14px;height:14px;stroke:currentColor;fill:none;stroke-width:1.9}
+.zx-act.liked{color:#e2555f}
+.zx-act.liked svg{fill:#e2555f;stroke:#e2555f}
+.zx-act.faved{color:#c98500}
+.zx-act.faved svg{fill:#ffb648;stroke:#c98500}
+.zx-act-share{margin-left:auto}
+
+/* ============ 专题企划 ============ */
+.zx-topic-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.zx-topic{
+  position:relative;border-radius:15px;overflow:hidden;aspect-ratio:3/4;
+  color:var(--zx-text-invert);display:flex;align-items:flex-end;
+  transition:.3s;box-shadow:0 14px 30px -22px rgba(43,36,49,.6);
+}
+.zx-topic:hover{transform:translateY(-6px)}
+.zx-topic svg{position:absolute;inset:0;width:100%;height:100%}
+.zx-topic .zx-cover-mask{background:linear-gradient(0deg,rgba(18,13,24,.92) 4%,rgba(18,13,24,.28) 52%,transparent)}
+.zx-topic-body{position:relative;z-index:2;padding:18px}
+.zx-topic-body span{font-size:10.5px;letter-spacing:.16em;color:var(--zx-amber)}
+.zx-topic-body h3{font-size:15.5px;line-height:1.4;margin:6px 0 7px}
+.zx-topic-body p{font-size:11.5px;color:rgba(246,241,234,.72);line-height:1.65}
+
+/* ============ 创作者矩阵 ============ */
+.zx-creator-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.zx-creator-card{
+  background:#fff;border:1px solid var(--zx-line);border-radius:15px;padding:20px;transition:.28s;
+  display:flex;flex-direction:column;gap:12px;
+}
+.zx-creator-card:hover{border-color:rgba(107,75,255,.42);box-shadow:var(--zx-shadow);transform:translateY(-3px)}
+.zx-creator-top{display:flex;align-items:center;gap:12px}
+.zx-creator-avatar{width:50px;height:50px;border-radius:16px;display:grid;place-items:center;font-size:19px;font-weight:800;color:#fff;flex:none}
+.zx-creator-top h3{font-size:15.5px}
+.zx-creator-top span{font-size:11.5px;color:var(--zx-text-soft)}
+.zx-creator-card p{font-size:12.5px;color:var(--zx-text-soft);line-height:1.75}
+.zx-creator-metrics{display:flex;gap:20px;padding-top:11px;border-top:1px dashed var(--zx-line)}
+.zx-creator-metrics b{display:block;font-size:15px;color:var(--zx-stone)}
+.zx-creator-metrics span{font-size:11px;color:var(--zx-text-soft)}
+.zx-creator-link{font-size:12px;color:var(--zx-violet);font-weight:600;cursor:pointer;align-self:flex-start}
+
+/* ============ 关键词深度解析（长文） ============ */
+.zx-essay{background:var(--zx-milk-warm)}
+.zx-essay-inner{display:grid;grid-template-columns:1fr 320px;gap:46px}
+.zx-essay h2{font-size:clamp(22px,2.8vw,29px);margin-bottom:20px;line-height:1.3}
+.zx-essay p{font-size:14.5px;line-height:2.02;color:#4c4457;margin-bottom:16px}
+.zx-essay p b{color:var(--zx-stone);font-weight:700}
+.zx-essay h3{font-size:16.5px;margin:26px 0 11px;color:var(--zx-stone);display:flex;align-items:center;gap:9px}
+.zx-essay h3::before{content:"";width:5px;height:18px;border-radius:3px;background:linear-gradient(180deg,var(--zx-amber),var(--zx-violet))}
+.zx-essay-aside{align-self:start;position:sticky;top:calc(var(--zx-head-h) + var(--zx-ann-h) + 28px)}
+.zx-aside-card{background:var(--zx-stone);color:var(--zx-milk);border-radius:16px;padding:22px;margin-bottom:16px}
+.zx-aside-card h4{font-size:14px;color:var(--zx-amber);letter-spacing:.08em;margin-bottom:12px}
+.zx-aside-card ul li{font-size:12.5px;color:rgba(246,241,234,.72);padding:7px 0;border-bottom:1px dashed rgba(255,248,238,.14);display:flex;justify-content:space-between;gap:10px}
+.zx-aside-card ul li:last-child{border-bottom:none}
+.zx-aside-card ul li b{color:var(--zx-milk);font-weight:600}
+.zx-aside-plain{background:#fff;border:1px solid var(--zx-line);border-radius:16px;padding:22px}
+.zx-aside-plain h4{font-size:14px;margin-bottom:12px}
+.zx-aside-plain p{font-size:12.5px;color:var(--zx-text-soft);margin-bottom:10px;line-height:1.8}
+
+/* ============ 作品墙 ============ */
+.zx-wall{display:grid;grid-template-columns:repeat(6,1fr);grid-auto-rows:130px;gap:14px}
+.zx-wall-item{position:relative;border-radius:13px;overflow:hidden;transition:.3s}
+.zx-wall-item:hover{transform:scale(1.025)}
+.zx-wall-item svg{width:100%;height:100%}
+.zx-wall-item span{position:absolute;left:10px;bottom:9px;font-size:11px;color:var(--zx-milk);background:rgba(20,15,26,.6);padding:2px 8px;border-radius:5px;backdrop-filter:blur(4px)}
+.zx-wall-w2{grid-column:span 2}
+.zx-wall-w3{grid-column:span 3}
+.zx-wall-h2{grid-row:span 2}
+
+/* ============ 用户评价 ============ */
+.zx-review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.zx-review{background:#fff;border:1px solid var(--zx-line);border-radius:15px;padding:20px;display:flex;flex-direction:column;gap:11px;transition:.26s}
+.zx-review:hover{box-shadow:var(--zx-shadow);transform:translateY(-3px)}
+.zx-review-top{display:flex;align-items:center;gap:10px}
+.zx-review-top b{font-size:13px}
+.zx-review-top span{font-size:11px;color:var(--zx-text-soft)}
+.zx-review p{font-size:13px;line-height:1.85;color:#4c4457}
+.zx-review-stars{color:var(--zx-amber);font-size:12px;letter-spacing:2px}
+
+/* ============ 动态/更新 ============ */
+.zx-news-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:36px;align-items:start}
+.zx-news-list li{display:grid;grid-template-columns:76px 1fr;gap:16px;padding:16px 0;border-bottom:1px dashed var(--zx-line)}
+.zx-news-list li:first-child{padding-top:0}
+.zx-news-date{font-size:11.5px;color:var(--zx-text-soft);line-height:1.4}
+.zx-news-date b{display:block;font-size:18px;color:var(--zx-violet);font-weight:800}
+.zx-news-list h4{font-size:14.5px;margin-bottom:5px;line-height:1.5}
+.zx-news-list p{font-size:12.5px;color:var(--zx-text-soft);line-height:1.75}
+.zx-partner-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.zx-partner{
+  border:1px solid var(--zx-line);border-radius:12px;background:#fff;height:70px;
+  display:grid;place-items:center;font-size:12.5px;font-weight:600;color:var(--zx-text-soft);
+  letter-spacing:.06em;transition:.24s;
+}
+.zx-partner:hover{color:var(--zx-violet);border-color:rgba(107,75,255,.4);background:rgba(107,75,255,.05)}
+
+/* ============ FAQ ============ */
+.zx-faq{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.zx-faq details{background:#fff;border:1px solid var(--zx-line);border-radius:12px;padding:0 18px;transition:.24s}
+.zx-faq details[open]{border-color:rgba(107,75,255,.4);box-shadow:0 12px 26px -22px rgba(43,36,49,.6)}
+.zx-faq summary{list-style:none;cursor:pointer;padding:15px 0;font-size:13.5px;font-weight:600;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.zx-faq summary::-webkit-details-marker{display:none}
+.zx-faq summary::after{content:"+";font-size:17px;color:var(--zx-violet);transition:.24s;line-height:1}
+.zx-faq details[open] summary::after{transform:rotate(45deg)}
+.zx-faq details p{font-size:12.5px;color:var(--zx-text-soft);line-height:1.85;padding:0 0 15px}
+
+/* ============ 联系 ============ */
+.zx-contact{background:var(--zx-stone);color:var(--zx-text-invert);border-radius:22px;padding:44px;display:grid;grid-template-columns:1.2fr 1fr;gap:40px;align-items:center}
+.zx-contact h2{font-size:clamp(22px,2.8vw,29px);margin-bottom:14px;line-height:1.3}
+.zx-contact p{font-size:13.5px;color:rgba(246,241,234,.7);line-height:1.9}
+.zx-contact-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+.zx-contact-actions .zx-btn-primary{background:var(--zx-amber);color:var(--zx-stone-deep)}
+.zx-contact-actions .zx-btn-primary:hover{background:#ffc874}
+.zx-contact-actions .zx-btn-ghost{border-color:rgba(246,241,234,.3);color:var(--zx-text-invert)}
+.zx-contact-actions .zx-btn-ghost:hover{background:rgba(246,241,234,.12)}
+.zx-contact-info{display:grid;gap:12px}
+.zx-contact-info div{background:rgba(255,248,238,.07);border:1px solid rgba(255,248,238,.14);border-radius:12px;padding:13px 16px;font-size:12.5px;color:rgba(246,241,234,.8)}
+.zx-contact-info div b{color:var(--zx-amber);display:block;font-size:11px;letter-spacing:.14em;margin-bottom:3px}
+
+/* ============ 页脚 ============ */
+.zx-footer{background:var(--zx-stone-deep);color:rgba(246,241,234,.62);padding:52px 0 28px;margin-top:0}
+.zx-footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:32px;padding-bottom:34px;border-bottom:1px solid rgba(255,248,238,.1)}
+.zx-footer-brand .zx-logo-text b{color:var(--zx-milk)}
+.zx-footer-brand p{font-size:12.5px;line-height:1.9;margin-top:14px;max-width:26em;color:rgba(246,241,234,.5)}
+.zx-footer h5{font-size:13px;color:var(--zx-milk);margin-bottom:14px;letter-spacing:.06em}
+.zx-footer ul li{font-size:12.5px;padding:5px 0;transition:.2s}
+.zx-footer ul li a:hover{color:var(--zx-amber)}
+.zx-footer-bottom{display:flex;justify-content:space-between;gap:18px;padding-top:20px;font-size:11.5px;flex-wrap:wrap;color:rgba(246,241,234,.42)}
+
+/* ============ 弹窗 & Toast & 回到顶部 ============ */
+.zx-modal-mask{position:fixed;inset:0;background:rgba(20,15,26,.66);backdrop-filter:blur(4px);z-index:200;display:none;place-items:center;padding:20px}
+.zx-modal-mask.on{display:grid}
+.zx-modal{background:var(--zx-milk-warm);border-radius:20px;width:min(520px,100%);padding:28px;box-shadow:0 40px 90px -30px rgba(0,0,0,.6);max-height:86vh;overflow:auto}
+.zx-modal h3{font-size:18px;margin-bottom:8px}
+.zx-modal>p{font-size:13px;color:var(--zx-text-soft);line-height:1.8;margin-bottom:18px}
+.zx-modal label{display:block;font-size:12.5px;font-weight:600;margin:13px 0 6px}
+.zx-modal input,.zx-modal textarea,.zx-modal select{
+  width:100%;border:1px solid var(--zx-line);border-radius:10px;padding:10px 13px;font-size:13px;
+  font-family:inherit;background:#fff;color:var(--zx-text);outline:none;transition:.2s;
+}
+.zx-modal input:focus,.zx-modal textarea:focus,.zx-modal select:focus{border-color:var(--zx-violet);box-shadow:0 0 0 3px rgba(107,75,255,.14)}
+.zx-modal textarea{resize:vertical;min-height:92px}
+.zx-modal-actions{display:flex;gap:10px;margin-top:20px}
+.zx-modal-actions .zx-btn{flex:1;justify-content:center}
+.zx-modal-close{position:absolute;top:0;right:0}
+.zx-modal-wrap{position:relative}
+.zx-share-row{display:flex;gap:10px;flex-wrap:wrap}
+.zx-share-row button{background:#fff;border:1px solid var(--zx-line);border-radius:10px;padding:10px 16px;font-size:12.5px;transition:.22s}
+.zx-share-row button:hover{background:var(--zx-violet);color:#fff;border-color:var(--zx-violet)}
+.zx-copy-box{display:flex;gap:8px;margin-top:14px}
+.zx-copy-box input{flex:1;font-size:12px}
+
+.zx-toast{
+  position:fixed;left:50%;bottom:38px;transform:translate(-50%,24px);
+  background:var(--zx-stone);color:var(--zx-milk);font-size:13px;padding:11px 22px;border-radius:999px;
+  box-shadow:0 18px 40px -18px rgba(0,0,0,.6);opacity:0;pointer-events:none;transition:.3s;z-index:300;
+}
+.zx-toast.on{opacity:1;transform:translate(-50%,0)}
+.zx-top{
+  position:fixed;right:24px;bottom:24px;width:46px;height:46px;border-radius:50%;
+  background:var(--zx-stone);color:var(--zx-milk);display:grid;place-items:center;
+  box-shadow:var(--zx-shadow);opacity:0;pointer-events:none;transition:.3s;z-index:120;
+}
+.zx-top.on{opacity:1;pointer-events:auto}
+.zx-top:hover{background:var(--zx-violet)}
+.zx-top svg{width:17px;height:17px;stroke:currentColor;fill:none;stroke-width:2.2}
+
+/* ============ 响应式 ============ */
+@media(max-width:1024px){
+  .zx-hero-grid{grid-template-columns:1fr;gap:38px}
+  .zx-focus-grid{grid-template-columns:1fr}
+  .zx-video-grid{grid-template-columns:repeat(2,1fr)}
+  .zx-topic-grid{grid-template-columns:repeat(2,1fr)}
+  .zx-creator-grid{grid-template-columns:repeat(2,1fr)}
+  .zx-essay-inner{grid-template-columns:1fr}
+  .zx-essay-aside{position:static}
+  .zx-news-grid{grid-template-columns:1fr}
+  .zx-contact{grid-template-columns:1fr;padding:32px}
+  .zx-footer-grid{grid-template-columns:1fr 1fr}
+  .zx-nav{display:none}
+  .zx-menu-toggle{display:grid}
+  .zx-head-tools{margin-left:auto}
+  .zx-search input{width:150px}
+  .zx-search input:focus{width:180px}
+}
+@media(max-width:720px){
+  :root{--zx-head-h:62px;--zx-ann-h:38px}
+  .zx-section{padding:52px 0}
+  .zx-video-grid,.zx-topic-grid,.zx-creator-grid,.zx-review-grid,.zx-faq{grid-template-columns:1fr}
+  .zx-focus-mini{grid-template-columns:104px 1fr}
+  .zx-wall{grid-template-columns:repeat(4,1fr);grid-auto-rows:104px}
+  .zx-announce-item:nth-child(n+3){display:none}
+  .zx-announce-more{display:none}
+  .zx-hero{padding:44px 0 52px}
+  .zx-hero-stats{gap:22px}
+  .zx-hero-float{right:6px;top:-14px;font-size:11px;padding:8px 12px}
+  .zx-footer-grid{grid-template-columns:1fr;gap:24px}
+  .zx-contact{padding:26px}
+  .zx-search{display:none}
+  .zx-modal{padding:22px}
+}
+.zx-mobile-nav{
+  display:none;border-top:1px solid var(--zx-line);background:var(--zx-milk-warm);
+}
+.zx-mobile-nav.on{display:block}
+.zx-mobile-nav a{display:block;padding:13px 0;font-size:14px;border-bottom:1px dashed var(--zx-line);color:var(--zx-text-soft)}
+.zx-mobile-nav a:last-child{border-bottom:none}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- ============ 吸顶：公告条 + 页头 ============ -->
+<div class="zx-sticky-stack">
+  <div class="zx-announce">
+    <div class="zx-wrap">
+      <span class="zx-announce-tag">官方发布</span>
+      <div class="zx-announce-track">
+        <span class="zx-announce-item"><b>11.18</b> 专题《无极圣光·光的十二种呼吸》上线，全 12 集高清正版</span>
+        <span class="zx-announce-item"><b>11.16</b> 第二届「无极光影挑战」开启报名，面向全体社区创作者</span>
+        <span class="zx-announce-item"><b>11.12</b> 创作者扶持计划第 4 期公布，新增 18 位签约作者</span>
+      </div>
+      <a class="zx-announce-more" href="#zx-news">全部更新</a>
+    </div>
+  </div>
+
+  <header class="zx-header">
+    <div class="zx-wrap">
+      <a class="zx-logo" href="#zx-top" aria-label="周希妍无极圣光官方网站">
+        <span class="zx-logo-mark">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5 L19 12 L8 19 Z" fill="#fff8ee"/></svg>
+        </span>
+        <span class="zx-logo-text">
+          <b>周希妍无极圣光</b>
+          <span>WUJI HOLY LIGHT</span>
+        </span>
+      </a>
+
+      <nav class="zx-nav" aria-label="主导航">
+        <a href="#zx-top">首页</a>
+        <a href="#zx-focus">焦点内容</a>
+        <a href="#zx-videos">影像档案</a>
+        <a href="#zx-topics">专题企划</a>
+        <a href="#zx-creators">创作者</a>
+        <a href="#zx-news">企业动态</a>
+        <a href="#zx-faq">帮助</a>
+      </nav>
+
+      <div class="zx-head-tools">
+        <div class="zx-search">
+          <input id="zx-search-input" type="search" placeholder="搜索影像、专题、创作者" aria-label="站内搜索">
+          <button id="zx-search-btn" type="button" aria-label="搜索">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M16.5 16.5 L21 21"/></svg>
+          </button>
+          <div class="zx-search-tip" id="zx-search-tip">
+            <p>大家都在搜</p>
+            <span data-q="无极圣光">无极圣光</span>
+            <span data-q="光的十二种呼吸">光的十二种呼吸</span>
+            <span data-q="创作者访谈">创作者访谈</span>
+            <span data-q="幕后手记">幕后手记</span>
+            <span data-q="光影挑战">光影挑战</span>
+          </div>
+        </div>
+        <a class="zx-btn zx-btn-primary" href="#zx-contact">投稿报名</a>
+        <button class="zx-menu-toggle" id="zx-menu-toggle" type="button" aria-label="展开导航" aria-expanded="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </div>
+    <nav class="zx-mobile-nav" id="zx-mobile-nav" aria-label="移动端导航">
+      <div class="zx-wrap">
+        <a href="#zx-top">首页</a>
+        <a href="#zx-focus">焦点内容</a>
+        <a href="#zx-videos">影像档案</a>
+        <a href="#zx-topics">专题企划</a>
+        <a href="#zx-creators">创作者</a>
+        <a href="#zx-essay">品牌解析</a>
+        <a href="#zx-news">企业动态</a>
+        <a href="#zx-faq">帮助</a>
+        <a href="#zx-contact">联系与投稿</a>
+      </div>
+    </nav>
+  </header>
+</div>
+
+<main id="zx-top">
+
+<!-- ============ 首屏 ============ -->
+<section class="zx-hero">
+  <div class="zx-wrap zx-hero-grid">
+    <div>
+      <span class="zx-hero-kicker">周希妍无极圣光 · 官方网站</span>
+      <h1>周希妍无极圣光</h1>
+      <p class="zx-hero-sub">一个以「光」为语言的原创影像品牌门户，记录真实、温暖与力量。</p>
+      <p class="zx-hero-desc">
+        周希妍无极圣光官方网站是品牌自建的高品质内容平台：以原创短片、人物访谈与幕后手记为核心，长期深耕光影叙事的垂直领域。我们与社区创作者共同成长，把一次拍摄的温度、一段生活的细节，做成值得反复观看的精品内容。这里既是企业官方发布窗口，也是创作者彼此陪伴的内容生态。
+      </p>
+      <div class="zx-hero-actions">
+        <a class="zx-btn zx-btn-primary" href="#zx-focus">进入焦点内容</a>
+        <a class="zx-btn zx-btn-ghost" href="#zx-creators">认识创作者</a>
+        <a class="zx-btn zx-btn-ghost" href="#zx-topics">查看专题企划</a>
+      </div>
+      <div class="zx-hero-stats">
+        <div class="zx-hero-stat"><b class="zx-count" data-target="128">0</b><span>原创影像作品</span></div>
+        <div class="zx-hero-stat"><b class="zx-count" data-target="86">0</b><span>签约与社区创作者</span></div>
+        <div class="zx-hero-stat"><b class="zx-count" data-target="46">0</b><span>专题企划期数</span></div>
+      </div>
+    </div>
+
+    <div class="zx-hero-visual">
+      <div class="zx-hero-float"><em>新</em> 第 12 集已上线</div>
+      <div class="zx-hero-frame">
+        <svg viewBox="0 0 800 500" role="img" aria-label="周希妍无极圣光品牌主视觉：夜色中暖光与紫色圣光交叠的光束构成">
+          <defs>
+            <linearGradient id="zxHeroBg" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#1a1426"/><stop offset="1" stop-color="#3a2b5e"/>
+            </linearGradient>
+            <linearGradient id="zxHeroBeam" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#ffb648" stop-opacity=".95"/><stop offset="1" stop-color="#ffb648" stop-opacity="0"/>
+            </linearGradient>
+            <linearGradient id="zxHeroBeam2" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#a08cff" stop-opacity=".9"/><stop offset="1" stop-color="#a08cff" stop-opacity="0"/>
+            </linearGradient>
+            <radialGradient id="zxHeroGlow" cx=".5" cy=".5" r=".5">
+              <stop offset="0" stop-color="#fff8ee" stop-opacity=".85"/><stop offset="1" stop-color="#fff8ee" stop-opacity="0"/>
+            </radialGradient>
+          </defs>
+          <rect width="800" height="500" fill="url(#zxHeroBg)"/>
+          <circle cx="560" cy="180" r="190" fill="url(#zxHeroGlow)" opacity=".35"/>
+          <path d="M300 0 L430 500 L300 500 L170 0 Z" fill="url(#zxHeroBeam)" opacity=".8"/>
+          <path d="M470 0 L600 500 L470 500 L340 0 Z" fill="url(#zxHeroBeam2)" opacity=".55"/>
+          <circle cx="560" cy="176" r="60" fill="none" stroke="#ffb648" stroke-width="2" opacity=".85"/>
+          <circle cx="560" cy="176" r="92" fill="none" stroke="#a08cff" stroke-width="1.2" opacity=".6"/>
+          <circle cx="560" cy="176" r="128" fill="none" stroke="#fff8ee" stroke-width=".8" opacity=".28"/>
+          <path d="M120 410 C 240 360, 320 430, 460 380 S 640 330, 720 400" fill="none" stroke="#ffb648" stroke-width="1.6" opacity=".6"/>
+          <path d="M100 440 C 220 395, 330 455, 470 405 S 650 360, 730 425" fill="none" stroke="#a08cff" stroke-width="1.2" opacity=".45"/>
+          <g fill="#fff8ee" opacity=".8">
+            <circle cx="200" cy="130" r="2.2"/><circle cx="260" cy="230" r="1.6"/><circle cx="360" cy="90" r="2"/>
+            <circle cx="680" cy="260" r="1.8"/><circle cx="620" cy="330" r="2.2"/><circle cx="150" cy="300" r="1.5"/>
+          </g>
+          <text x="46" y="460" font-size="15" fill="#f6f1ea" opacity=".55" font-family="sans-serif" letter-spacing="6">WUJI HOLY LIGHT</text>
+        </svg>
+        <div class="zx-hero-play">
+          <button type="button" class="zx-open-video" data-title="《无极圣光 · 序章》品牌概念短片" aria-label="播放品牌概念短片">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5 L19 12 L8 19 Z"/></svg>
+          </button>
+        </div>
+        <div class="zx-hero-badge"><i></i> 品牌概念短片 · 官方正版</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 焦点内容 ============ -->
+<section class="zx-section" id="zx-focus">
+  <div class="zx-wrap">
+    <div class="zx-sec-head">
+      <div>
+        <h2>焦点内容 · <em>本期主推</em></h2>
+        <p>由品牌内容团队与社区创作者共同选出的高品质影像，涵盖专题正片、幕后手记与人物访谈。</p>
+      </div>
+      <a class="zx-sec-link" href="#zx-videos">查看全部影像档案 →</a>
+    </div>
+
+    <div class="zx-focus-grid">
+      <article class="zx-focus-main">
+        <svg viewBox="0 0 800 520" role="img" aria-label="专题《光的十二种呼吸》封面：清晨窗边一束斜光落进房间" preserveAspectRatio="xMidYMid slice">
+          <defs>
+            <linearGradient id="zxFocus1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#2a2038"/><stop offset="1" stop-color="#0f0b16"/>
+            </linearGradient>
+            <linearGradient id="zxFocus1Beam" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#ffd28a" stop-opacity=".95"/><stop offset="1" stop-color="#ffb648" stop-opacity="0"/>
+            </linearGradient>
+          </defs>
+          <rect width="800" height="520" fill="url(#zxFocus1)"/>
+          <rect x="480" y="60" width="240" height="330" rx="6" fill="#1b1526" stroke="#4a3d66" stroke-width="2"/>
+          <line x1="600" y1="60" x2="600" y2="390" stroke="#4a3d66" stroke-width="2"/>
+          <line x1="480" y1="225" x2="720" y2="225" stroke="#4a3d66" stroke-width="2"/>
+          <path d="M480 90 L180 520 L420 520 L720 110 Z" fill="url(#zxFocus1Beam)" opacity=".5"/>
+          <path d="M150 430 L330 400 L340 470 L160 500 Z" fill="#3a2c52" opacity=".85"/>
+          <ellipse cx="246" cy="452" rx="70" ry="16" fill="#241a36" opacity=".7"/>
+          <g opacity=".85">
+            <circle cx="220" cy="180" r="2" fill="#ffd28a"/><circle cx="320" cy="260" r="1.6" fill="#ffd28a"/>
+            <circle cx="180" cy="320" r="1.4" fill="#fff8ee"/><circle cx="420" cy="150" r="1.8" fill="#a08cff"/>
+          </g>
+          <text x="48" y="76" font-size="14" fill="#ffb648" letter-spacing="5" font-family="sans-serif">FEATURED · 01</text>
+        </svg>
+        <div class="zx-cover-mask"></div>
+        <div class="zx-focus-main-body">
+          <span class="zx-tag zx-tag-amber">专题正片</span>
+          <h3>光的十二种呼吸 · 从清晨窗台到深夜街灯</h3>
+          <p>十二集短影像，十二种与光相处的方式。品牌团队用一年时间记录同一个城市的晨昏变化，也记录普通人在光里的呼吸节奏。</p>
+          <div class="zx-meta-row" style="color:rgba(246,241,234,.66)">
+            <span>品牌内容团队</span><span>·</span><span>12 集 / 每集 6 分钟</span><span>·</span><span>2026.11.18 更新</span>
+          </div>
+        </div>
+      </article>
+
+      <div class="zx-focus-side">
+        <article class="zx-focus-mini">
+          <div class="zx-focus-mini-thumb">
+            <svg viewBox="0 0 320 200" role="img" aria-label="镜头后的人：拍摄现场的灯架与提词板">
+              <rect width="320" height="200" fill="#241c33"/>
+              <rect x="40" y="70" width="120" height="80" rx="6" fill="#3a2d55"/>
+              <circle cx="100" cy="110" r="22" fill="#1a1426" stroke="#ffb648" stroke-width="2"/>
+              <rect x="196" y="52" width="4" height="110" fill="#4a3d66"/>
+              <path d="M198 52 L246 74 L198 96 Z" fill="#ffb648" opacity=".85"/>
+              <path d="M198 52 L150 74 L198 96 Z" fill="#ffd28a" opacity=".4"/>
+              <circle cx="260" cy="150" r="16" fill="#6b4bff" opacity=".8"/>
+            </svg>
+          </div>
+          <div class="zx-focus-mini-body">
+            <h4>镜头后的人：一次六小时等待的幕后</h4>
+            <p>专访摄影指导林岫，聊如何在黄昏的十八分钟里拍到想要的那一帧。</p>
+            <div class="zx-meta-row"><span class="zx-tag">幕后手记</span><span>18 分钟</span></div>
+          </div>
+        </article>
+
+        <article class="zx-focus-mini">
+          <div class="zx-focus-mini-thumb">
+            <svg viewBox="0 0 320 200" role="img" aria-label="慢速生活的一百个瞬间：桌上摊开的胶片与茶杯">
+              <rect width="320" height="200" fill="#2b2136"/>
+              <rect x="30" y="110" width="260" height="56" rx="6" fill="#4a3a2c"/>
+              <rect x="52" y="60" width="86" height="54" rx="4" fill="#8b6d4a"/>
+              <rect x="64" y="70" width="62" height="34" rx="2" fill="#d9c19b"/>
+              <circle cx="220" cy="76" r="26" fill="#3a2d55" stroke="#a08cff" stroke-width="2"/>
+              <path d="M220 62 L228 82 L212 82 Z" fill="#ffb648"/>
+            </svg>
+          </div>
+          <div class="zx-focus-mini-body">
+            <h4>慢速生活的一百个瞬间 · 第 7 期</h4>
+            <p>把镜头交给日常：晾衣绳、旧胶片、午后一杯凉掉的茶。</p>
+            <div class="zx-meta-row"><span class="zx-tag">日常记录</span><span>9 分钟</span></div>
+          </div>
+        </article>
+
+        <article class="zx-focus-mini">
+          <div class="zx-focus-mini-thumb">
+            <svg viewBox="0 0 320 200" role="img" aria-label="创作者访谈录：两个人对坐的椅子与录音设备">
+              <rect width="320" height="200" fill="#1d1822"/>
+              <rect x="34" y="118" width="70" height="46" rx="10" fill="#6b4bff" opacity=".85"/>
+              <rect x="216" y="118" width="70" height="46" rx="10" fill="#3a2d55"/>
+              <circle cx="160" cy="98" r="24" fill="#ffb648" opacity=".85"/>
+              <rect x="146" y="126" width="28" height="38" rx="6" fill="#4a3d66"/>
+              <path d="M60 60 h60 M200 60 h60" stroke="#a08cff" stroke-width="2" opacity=".7"/>
+            </svg>
+          </div>
+          <div class="zx-focus-mini-body">
+            <h4>创作者访谈录：我们为什么拍普通人的光</h4>
+            <p>三位社区创作者对谈，聊影像里的真实、克制与温度。</p>
+            <div class="zx-meta-row"><span class="zx-tag">人物访谈</span><span>26 分钟</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 影像档案（视频流） ============ -->
+<section class="zx-section zx-section-alt" id="zx-videos">
+  <div class="zx-wrap">
+    <div class="zx-sec-head">
+      <div>
+        <h2>影像档案 · <em>本周精选</em></h2>
+        <p>六部与「光」有关的原创短片，来自品牌官方发布与社区创作者投稿，全部为高清正版内容。</p>
+      </div>
+      <a class="zx-sec-link" href="#zx-topics">按专题浏览 →</a>
+    </div>
+
+    <div class="zx-video-grid">
+      <article class="zx-video-card">
+        <div class="zx-cover">
+          <svg viewBox="0 0 480 270" role="img" aria-label="城市夜色里的第一盏灯：街道与暖黄路灯">
+            <rect width="480" height="270" fill="#1b1526"/>
+            <rect x="0" y="190" width="480" height="80" fill="#241a36"/>
+            <rect x="60" y="90" width="8" height="110" fill="#3a2d55"/>
+            <circle cx="64" cy="86" r="18" fill="#ffb648" opacity=".9"/>
+            <circle cx="64" cy="86" r="42" fill="#ffb648" opacity=".16"/>
+            <rect x="150" y="120" width="70" height="80" fill="#2c2140"/>
+            <rect x="250" y="96" width="90" height="104" fill="#33264a"/>
+            <rect x="370" y="140" width="80" height="60" fill="#2c2140"/>
+            <g fill="#ffd28a" opacity=".8"><rect x="164" y="136" width="12" height="12"/><rect x="188" y="136" width="12" height="12"/><rect x="270" y="116" width="14" height="14"/><rect x="296" y="116" width="14" height="14"/><rect x="270" y="146" width="14" height="14"/></g>
+          </svg>
+          <div class="zx-cover-mask"></div>
+          <span class="zx-cover-label">原创短片</span>
+          <span class="zx-cover-duration">08:24</span>
+          <span class="zx-cover-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5 L19 12 L8 19 Z"/></svg></span>
+        </div>
+        <div class="zx-card-body">
+          <h4>城市夜色里的第一盏灯</h4>
+          <p>跟拍一位夜班路灯检修员，记录他在凌晨四点把整条街点亮的过程。</p>
+          <div class="zx-card-author"><span class="zx-avatar" style="background:linear-gradient(135deg,#ffb648,#e07a2b)">林</span> 林岫 · 城市探索</div>
+          <div class="zx-card-actions">
+            <button class="zx-act zx-like" type="button" aria-label="点赞"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.6-7-9.4A4 4 0 0 1 12 8a4 4 0 0 1 7 2.6C19 15.4 12 20 12 20z"/></svg><b>0</b></button>
+            <button class="zx-act zx-fav" type="button" aria-label="收藏"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><b>收藏</b></button>
+            <button class="zx-act zx-act-share zx-share" type="button" aria-label="分享">分享</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="zx-video-card">
+        <div class="zx-cover">
+          <svg viewBox="0 0 480 270" role="img" aria-label="厨房里的十分钟：切菜板与升腾的热气">
+            <rect width="480" height="270" fill="#2a1f2e"/>
+            <rect x="0" y="180" width="480" height="90" fill="#4a3a2c"/>
+            <rect x="70" y="150" width="180" height="34" rx="8" fill="#8b6d4a"/>
+            <circle cx="160" cy="120" r="34" fill="#d9c19b" opacity=".9"/>
+            <path d="M150 108 q10 -16 20 0 q10 16 -10 22 q-20 -6 -10 -22z" fill="#ffb648" opacity=".9"/>
+            <rect x="300" y="86" width="100" height="96" rx="10" fill="#3a2d55"/>
+            <path d="M330 110 q12 20 0 40 M356 106 q12 22 0 44" stroke="#ffd28a" stroke-width="2" fill="none" opacity=".7"/>
+          </svg>
+          <div class="zx-cover-mask"></div>
+          <span class="zx-cover-label">教程干货</span>
+          <span class="zx-cover-duration">11:02</span>
+          <span class="zx-cover-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5 L19 12 L8 19 Z"/></svg></span>
+        </div>
+        <div class="zx-card-body">
+          <h4>厨房里的十分钟：用一盏灯拍好家常菜</h4>
+          <p>不打灯也能出片。从侧逆光到反光板，三步搞定一桌有质感的晚饭。</p>
+          <div class="zx-card-author"><span class="zx-avatar" style="background:linear-gradient(135deg,#6b4bff,#a08cff)">苏</span> 苏野 · 实用技巧</div>
+          <div class="zx-card-actions">
+            <button class="zx-act zx-like" type="button" aria-label="点赞"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.6-7-9.4A4 4 0 0 1 12 8a4 4 0 0 1 7 2.6C19 15.4 12 20 12 20z"/></svg><b>0</b></button>
+            <button class="zx-act zx-fav" type="button" aria-label="收藏"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><b>收藏</b></button>
+            <button class="zx-act zx-act-share zx-share" type="button" aria-label="分享">分享</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="zx-video-card">
+        <div class="zx-cover">
+          <svg viewBox="0 0 480 270" role="img" aria-label="老照片修复记：桌上的旧相框与放大镜">
+            <rect width="480" height="270" fill="#221a2b"/>
+            <rect x="60" y="60" width="160" height="140" rx="6" fill="#5a4632"/>
+            <rect x="76" y="76" width="128" height="108" rx="3" fill="#c9a878"/>
+            <path d="M96 160 q30 -50 60 -30 q20 12 40 -20" stroke="#7a5c3a" stroke-width="3" fill="none"/>
+            <circle cx="330" cy="120" r="46" fill="none" stroke="#a08cff" stroke-width="4"/>
+            <path d="M362 152 L406 196" stroke="#a08cff" stroke-width="10" stroke-linecap="round"/>
+            <circle cx="330" cy="120" r="46" fill="#a08cff" opacity=".14"/>
+          </svg>
+          <div class="zx-cover-mask"></div>
+          <span class="zx-cover-label">手艺记录</span>
+          <span class="zx-cover-duration">14:36</span>
+          <span class="zx-cover-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5 L19 12 L8 19 Z"/></svg></span>
+        </div>
+        <div class="zx-card-body">
+          <h4>老照片修复记：把三十年前的合影还给他们</h4>
+          <p>一次社区公益修复活动，用扫描与手工补色，找回一整个家庭的笑容。</p>
+          <div class="zx-card-author"><span class="zx-avatar" style="background:linear-gradient(135deg,#3f9c7a,#8bcf9f)">陈</span> 陈不言 · 人文纪实</div>
+          <div class="zx-card-actions">
+            <button class="zx-act zx-like" type="button" aria-label="点赞"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.6-7-9.4A4 4 0 0 1 12 8a4 4 0 0 1 7 2.6C19 15.4 12 20 12 20z"/></svg><b>0</b></button>
+            <button class="zx-act zx-fav" type="button" aria-label="收藏"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><b>收藏</b></button>
+            <button class="zx-act zx-act-share zx-share" type="button" aria-label="分享">分享</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="zx-video-card">
+        <div class="zx-cover">
+          <svg viewBox="0 0 480 270" role="img" aria-label="在雨天记录一棵树：雨滴与树影">
+            <rect width="480" height="270" fill="#1e2a33"/>
+            <path d="M240 240 L240 130" stroke="#4a6b5a" stroke-width="10"/>
+            <path d="M240 150 L190 100 M240 160 L292 108" stroke="#4a6b5a" stroke-width="7"/>
+            <circle cx="190" cy="92" r="40" fill="#3f9c7a" opacity=".65"/>
+            <circle cx="296" cy="100" r="44" fill="#4fae8a" opacity=".55"/>
+            <circle cx="240" cy="64" r="46" fill="#358f6d" opacity=".6"/>
+            <g stroke="#a8d4c2" stroke-width="1.6" opacity=".7">
+              <line x1="80" y1="30" x2="70" y2="90"/><line x1="140" y1="50" x2="132" y2="110"/>
+              <line x1="330" y1="36" x2="322" y2="96"/><line x1="392" y1="60" x2="384" y2="120"/>
+            </g>
+            <rect x="0" y="232" width="480" height="38" fill="#15222a"/>
+          </svg>
+          <div class="zx-cover-mask"></div>
+          <span class="zx-cover-label">治愈影像</span>
+          <span class="zx-cover-duration">06:48</span>
+          <span class="zx-cover-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5 L19 12 L8 19 Z"/></svg></span>
+        </div>
+        <div class="zx-card-body">
+          <h4>在雨天记录一棵树：四小时不说话的观察</h4>
+          <p>固定机位，长镜头，只留下雨声和枝叶。适合睡前的安静影像。</p>
+          <div class="zx-card-author"><span class="zx-avatar" style="background:linear-gradient(135deg,#3f9c7a,#2b6f8f)">禾</span> 禾木 · 自然记录</div>
+          <div class="zx-card-actions">
+            <button class="zx-act zx-like" type="button" aria-label="点赞"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.6-7-9.4A4 4 0 0 1 12 8a4 4 0 0 1 7 2.6C19 15.4 12 20 12 20z"/></svg><b>0</b></button>
+            <button class="zx-act zx-fav" type="button" aria-label="收藏"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><b>收藏</b></button>
+            <button class="zx-act zx-act-share zx-share" type="button" aria-label="分享">分享</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="zx-video-card">
+        <div class="zx-cover">
+          <svg viewBox="0 0 480 270" role="img" aria-label="一次手作的全过程：工作台上的铜片与锤子">
+            <rect width="480" height="270" fill="#2b2118"/>
+            <rect x="0" y="190" width="480" height="80" fill="#4a3a2c"/>
+            <rect x="90" y="120" width="140" height="70" rx="8" fill="#a9743c"/>
+            <rect x="108" y="136" width="104" height="38" rx="4" fill="#d9a05b"/>
+            <rect x="270" y="96" width="14" height="94" rx="6" fill="#8b6d4a"/>
+            <rect x="252" y="76" width="50" height="30" rx="6" fill="#5f6b7a"/>
+            <circle cx="380" cy="150" r="26" fill="none" stroke="#ffb648" stroke-width="3"/>
+            <circle cx="380" cy="150" r="38" fill="none" stroke="#ffb648" stroke-width="1" opacity=".5"/>
+          </svg>
+          <div class="zx-cover-mask"></div>
+          <span class="zx-cover-label">手作DIY</span>
+          <span class="zx-cover-duration">17:20</span>
+          <span class="zx-cover-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5 L19 12 L8 19 Z"/></svg></span>
+        </div>
+        <div class="zx-card-body">
+          <h4>一次手作的全过程：给光做一枚铜制灯罩</h4>
+          <p>从下料、退火到打磨，四十分钟的工序压缩成十七分钟，附完整参数。</p>
+          <div class="zx-card-author"><span class="zx-avatar" style="background:linear-gradient(135deg,#c98500,#ffb648)">周</span> 周小满 · 手作记录</div>
+          <div class="zx-card-actions">
+            <button class="zx-act zx-like" type="button" aria-label="点赞"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.6-7-9.4A4 4 0 0 1 12 8a4 4 0 0 1 7 2.6C19 15.4 12 20 12 20z"/></svg><b>0</b></button>
+            <button class="zx-act zx-fav" type="button" aria-label="收藏"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><b>收藏</b></button>
+            <button class="zx-act zx-act-share zx-share" type="button" aria-label="分享">分享</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="zx-video-card">
+        <div class="zx-cover">
+          <svg viewBox="0 0 480 270" role="img" aria-label="一间屋子里的四季：窗景与不同色的光">
+            <rect width="480" height="270" fill="#241c33"/>
+            <rect x="140" y="40" width="200" height="150" rx="6" fill="#1a1426" stroke="#4a3d66" stroke-width="3"/>
+            <path d="M140 40 L340 40 L340 80 L140 80 Z" fill="#3f9c7a" opacity=".45"/>
+            <path d="M140 80 L340 80 L340 120 L140 120 Z" fill="#ffb648" opacity=".35"/>
+            <path d="M140 120 L340 120 L340 160 L140 160 Z" fill="#e07a2b" opacity=".3"/>
+            <path d="M140 160 L340 160 L340 190 L140 190 Z" fill="#a08cff" opacity=".35"/>
+            <line x1="240" y1="40" x2="240" y2="190" stroke="#4a3d66" stroke-width="3"/>
+            <rect x="60" y="200" width="360" height="14" rx="7" fill="#3a2d55"/>
+          </svg>
+          <div class="zx-cover-mask"></div>
+          <span class="zx-cover-label">延时摄影</span>
+          <span class="zx-cover-duration">04:12</span>
+          <span class="zx-cover-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5 L19 12 L8 19 Z"/></svg></span>
+        </div>
+        <div class="zx-card-body">
+          <h4>一间屋子里的四季：同一扇窗的三百六十五天</h4>
+          <p>每天同一时间同一机位，一年素材剪成四分钟，看完像过完了一整年。</p>
+          <div class="zx-card-author"><span class="zx-avatar" style="background:linear-gradient(135deg,#6b4bff,#e2555f)">叙</span> 叙述者 · 生活记录</div>
+          <div class="zx-card-actions">
+            <button class="zx-act zx-like" type="button" aria-label="点赞"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.6-7-9.4A4 4 0 0 1 12 8a4 4 0 0 1 7 2.6C19 15.4 12 20 12 20z"/></svg><b>0</b></button>
+            <button class="zx-act zx-fav" type="button" aria-label="收藏"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><b>收藏</b></button>
+            <button class="zx-act zx-act-share zx-share" type="button" aria-label="分享">分享</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 专题企划 ============ -->
+<section class="zx-section" id="zx-topics">
+  <div class="zx-wrap">
+    <div class="zx-sec-head">
+      <div>
+        <h2>专题企划 · <em>持续更新中</em></h2>
+        <p>四个长期企划，围绕同一种好奇：光如何参与人的生活。</p>
+      </div>
+      <a class="zx-sec-link" href="#zx-news">跟进最新进度 →</a>
+    </div>
+
+    <div class="zx-topic-grid">
+      <article class="zx-topic">
+        <svg viewBox="0 0 400 540" role="img" aria-label="专题《光的十二种呼吸》竖版封面：窗格与光斑">
+          <rect width="400" height="540" fill="#241c33"/>
+          <rect x="80" y="70" width="240" height="300" rx="6" fill="#1a1426" stroke="#4a3d66" stroke-width="3"/>
+          <line x1="200" y1="70" x2="200" y2="370" stroke="#4a3d66" stroke-width="3"/>
+          <line x1="80" y1="220" x2="320" y2="220" stroke="#4a3d66" stroke-width="3"/>
+          <circle cx="300" cy="150" r="54" fill="#ffb648" opacity=".45"/>
+          <path d="M60 470 L120 400 L200 460 L280 396 L340 470 Z" fill="#3a2d55" opacity=".9"/>
+        </svg>
+        <div class="zx-cover-mask"></div>
+        <div class="zx-topic-body">
+          <span>专题企划 · 已更新 12 集</span>
+          <h3>光的十二种呼吸</h3>
+          <p>从清晨到深夜，十二集短影像记录城市里的光。</p>
+        </div>
+      </article>
+
+      <article class="zx-topic">
+        <svg viewBox="0 0 400 540" role="img" aria-label="专题《写光的他们》竖版封面：三个人物剪影与话筒">
+          <rect width="400" height="540" fill="#1e2a33"/>
+          <circle cx="110" cy="220" r="44" fill="#3f9c7a" opacity=".8"/>
+          <circle cx="200" cy="200" r="52" fill="#ffb648" opacity=".8"/>
+          <circle cx="292" cy="226" r="40" fill="#a08cff" opacity=".8"/>
+          <rect x="110" y="264" width="66" height="150" rx="30" fill="#2c3a45"/>
+          <rect x="168" y="252" width="66" height="170" rx="30" fill="#2c3a45"/>
+          <rect x="256" y="266" width="66" height="150" rx="30" fill="#2c3a45"/>
+        </svg>
+        <div class="zx-cover-mask"></div>
+        <div class="zx-topic-body">
+          <span>专题企划 · 已更新 8 集</span>
+          <h3>写光的他们</h3>
+          <p>与八位创作者对谈，聊他们眼中的真实与克制。</p>
+        </div>
+      </article>
+
+      <article class="zx-topic">
+        <svg viewBox="0 0 400 540" role="img" aria-label="专题《街角观察计划》竖版封面：街角店铺与路牌">
+          <rect width="400" height="540" fill="#2b2118"/>
+          <rect x="50" y="150" width="300" height="280" fill="#4a3a2c"/>
+          <rect x="90" y="200" width="90" height="80" rx="4" fill="#ffb648" opacity=".8"/>
+          <rect x="220" y="200" width="90" height="80" rx="4" fill="#ffd28a" opacity=".6"/>
+          <rect x="150" y="320" width="100" height="110" rx="4" fill="#2b2118"/>
+          <rect x="60" y="110" width="280" height="22" rx="11" fill="#8b6d4a"/>
+        </svg>
+        <div class="zx-cover-mask"></div>
+        <div class="zx-topic-body">
+          <span>专题企划 · 已更新 6 集</span>
+          <h3>街角观察计划</h3>
+          <p>固定机位拍摄一百个小店的开门与关门。</p>
+        </div>
+      </article>
+
+      <article class="zx-topic">
+        <svg viewBox="0 0 400 540" role="img" aria-label="专题《新手的第一支短片》竖版封面：相机与光圈刻度">
+          <rect width="400" height="540" fill="#241c33"/>
+          <rect x="90" y="180" width="220" height="160" rx="16" fill="#3a2d55"/>
+          <circle cx="200" cy="260" r="56" fill="#1a1426" stroke="#ffb648" stroke-width="4"/>
+          <circle cx="200" cy="260" r="30" fill="#6b4bff" opacity=".7"/>
+          <g stroke="#a08cff" stroke-width="2" opacity=".7">
+            <line x1="200" y1="180" x2="200" y2="196"/><line x1="140" y1="260" x2="156" y2="260"/>
+            <line x1="244" y1="260" x2="260" y2="260"/><line x1="200" y1="324" x2="200" y2="340"/>
+          </g>
+        </svg>
+        <div class="zx-cover-mask"></div>
+        <div class="zx-topic-body">
+          <span>专题企划 · 开放报名</span>
+          <h3>新手的第一支短片</h3>
+          <p>从构图到剪辑，八节课带你完成第一支作品。</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 创作者矩阵 ============ -->
+<section class="zx-section zx-section-alt" id="zx-creators">
+  <div class="zx-wrap">
+    <div class="zx-sec-head">
+      <div>
+        <h2>创作者矩阵 · <em>镜头后的人</em></h2>
+        <p>品牌长期合作与社区推选的影像作者，覆盖纪实、生活、手作与自然记录等方向。</p>
+      </div>
+      <a class="zx-sec-link" href="#zx-contact">申请成为创作者 →</a>
+    </div>
+
+    <div class="zx-creator-grid">
+      <article class="zx-creator-card">
+        <div class="zx-creator-top">
+          <span class="zx-creator-avatar" style="background:linear-gradient(135deg,#ffb648,#e07a2b)">林</span>
+          <div><h3>林岫</h3><span>城市探索 · 签约创作者</span></div>
+        </div>
+        <p>拍了七年城市的夜与人。习惯在天亮前出门，等一条街慢慢醒来。作品以长镜头和自然光著称，认为克制比表达更难。</p>
+        <div class="zx-creator-metrics">
+          <div><b>34</b><span>作品</span></div>
+          <div><b>2.6万</b><span>关注</span></div>
+          <div><b>9</b><span>专题</span></div>
+        </div>
+        <span class="zx-creator-link zx-open-creator" data-name="林岫" data-bio="城市探索方向签约创作者，擅长夜与晨的纪实影像，代表作《城市夜色里的第一盏灯》。">查看档案 →</span>
+      </article>
+
+      <article class="zx-creator-card">
+        <div class="zx-creator-top">
+          <span class="zx-creator-avatar" style="background:linear-gradient(135deg,#6b4bff,#a08cff)">苏</span>
+          <div><h3>苏野</h3><span>实用技巧 · 社区作者</span></div>
+        </div>
+        <p>把复杂的拍摄方法拆成能上手的步骤。擅长的不是炫技，是让一台普通设备拍出干净画面，教程类内容口碑稳定。</p>
+        <div class="zx-creator-metrics">
+          <div><b>47</b><span>作品</span></div>
+          <div><b>3.8万</b><span>关注</span></div>
+          <div><b>12</b><span>专题</span></div>
+        </div>
+        <span class="zx-creator-link zx-open-creator" data-name="苏野" data-bio="实用技巧方向作者，专注低门槛影像教学，代表系列《用一个灯拍好一天》。">查看档案 →</span>
+      </article>
+
+      <article class="zx-creator-card">
+        <div class="zx-creator-top">
+          <span class="zx-creator-avatar" style="background:linear-gradient(135deg,#3f9c7a,#8bcf9f)">陈</span>
+          <div><h3>陈不言</h3><span>人文纪实 · 签约创作者</span></div>
+        </div>
+        <p>关注被快速生活忽略的细节。擅长在极短的时间里与被拍摄者建立信任，作品常被形容为「安静但有重量」。</p>
+        <div class="zx-creator-metrics">
+          <div><b>21</b><span>作品</span></div>
+          <div><b>1.9万</b><span>关注</span></div>
+          <div><b>5</b><span>专题</span></div>
+        </div>
+        <span class="zx-creator-link zx-open-creator" data-name="陈不言" data-bio="人文纪实方向签约创作者，长期记录社区公益与普通人的日常，代表作《老照片修复记》。">查看档案 →</span>
+      </article>
+
+      <article class="zx-creator-card">
+        <div class="zx-creator-top">
+          <span class="zx-creator-avatar" style="background:linear-gradient(135deg,#3f9c7a,#2b6f8f)">禾</span>
+          <div><h3>禾木</h3><span>自然记录 · 社区作者</span></div>
+        </div>
+        <p>用固定机位观察一棵树、一场雨、一片田。相信时间本身是最有力的剪辑，慢内容也能被认真看完。</p>
+        <div class="zx-creator-metrics">
+          <div><b>18</b><span>作品</span></div>
+          <div><b>1.2万</b><span>关注</span></div>
+          <div><b>4</b><span>专题</span></div>
+        </div>
+        <span class="zx-creator-link zx-open-creator" data-name="禾木" data-bio="自然记录方向作者，擅长长镜头与自然声，代表作《在雨天记录一棵树》。">查看档案 →</span>
+      </article>
+
+      <article class="zx-creator-card">
+        <div class="zx-creator-top">
+          <span class="zx-creator-avatar" style="background:linear-gradient(135deg,#c98500,#ffb648)">周</span>
+          <div><h3>周小满</h3><span>手作记录 · 社区作者</span></div>
+        </div>
+        <p>拍手作不是为了展示成果，而是记录过程里的犹豫和耐心。镜头常停在工具与手之间，节奏克制。</p>
+        <div class="zx-creator-metrics">
+          <div><b>26</b><span>作品</span></div>
+          <div><b>1.5万</b><span>关注</span></div>
+          <div><b>6</b><span>专题</span></div>
+        </div>
+        <span class="zx-creator-link zx-open-creator" data-name="周小满" data-bio="手作记录方向作者，记录铜、木、纸的手工过程，代表作《给光做一枚铜制灯罩》。">查看档案 →</span>
+      </article>
+
+      <article class="zx-creator-card">
+        <div class="zx-creator-top">
+          <span class="zx-creator-avatar" style="background:linear-gradient(135deg,#6b4bff,#e2555f)">叙</span>
+          <div><h3>叙述者</h3><span>生活记录 · 新晋作者</span></div>
+        </div>
+        <p>品牌创作者扶持计划第四期入选作者。用延时和日常素材记录时间，作品安静、留白多，被社区称为「可呼吸的影像」。</p>
+        <div class="zx-creator-metrics">
+          <div><b>9</b><span>作品</span></div>
+          <div><b>6200</b><span>关注</span></div>
+          <div><b>2</b><span>专题</span></div>
+        </div>
+        <span class="zx-creator-link zx-open-creator" data-name="叙述者" data-bio="生活记录方向新晋作者，擅长延时与素材重组，代表作《一间屋子里的四季》。">查看档案 →</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 关键词深度解析 ============ -->
+<section class="zx-section zx-essay" id="zx-essay">
+  <div class="zx-wrap zx-essay-inner">
+    <div>
+      <h2>品牌解析：周希妍无极圣光为什么以「光」为核心</h2>
+      <p><b>周希妍无极圣光</b>并不是一个单纯的影像合集，而是一个围绕光影展开的原创内容品牌。我们把「无极」理解为没有边界的探索，把「圣光」理解为值得被郑重对待的日常高光。作为该领域的原创影像平台，官方网站承担三件事：发布品牌官方内容、聚合社区创作者的优质作品、以及持续输出可学习的影像方法。这三件事决定了整个站点的结构，也决定了我们如何选择每一个选题。</p>
+
+      <h3>一、内容定位：从日常里找光</h3>
+      <p>很多影像内容的问题不在于拍得不好，而在于不知道要拍什么。周希妍无极圣光的选题逻辑是「从日常里找光」——不是寻找戏剧性，而是寻找被忽略的部分。一盏路灯、一次雨天、一枚自己打磨的铜灯罩，都可以成为主角。我们的<a href="#zx-videos" style="color:var(--zx-violet);font-weight:600">影像档案</a>因此呈现出明显的日常倾向：大多数作品没有强冲突，靠构图、光线和节奏建立观看理由。</p>
+      <p>这种定位也影响了内容的长度。我们不追求无限延长，而是让每支短片在自己的节奏里结束：四分钟、九分钟、十七分钟，都取决于素材本身。对观众来说，这意味着打开任何一支作品，都能预期它会被认真对待，而不是被填充。这是「精品内容」在实践层面的含义。</p>
+
+      <h3>二、创作者生态：让方法被看见</h3>
+      <p>品牌的创作者矩阵不是排行榜，而是一张能力地图。城市探索、实用技巧、人文纪实、自然记录、手作记录、生活记录，六个方向共同构成内容生态的骨架。我们希望观众在看完一支作品后，能顺着作者档案继续看下去，也能在教程内容里找到可以自己动手的方法。这也是「创作者扶持计划」持续运营的原因：只有方法被看见，社区才会真正生长。</p>
+      <p>在合作机制上，我们坚持三条原则：尊重作者署名、尊重创作节奏、尊重作品的完整性。品牌方提供拍摄支持与专题企划资源，作者保留表达自由。这套机制运行至今，已经沉淀出 128 支原创影像作品与 46 期专题企划，并形成了相对稳定的观众群体。</p>
+
+      <h3>三、企业与社区：两种身份的平衡</h3>
+      <p>作为企业官方网站，我们需要发布清晰、可信的企业动态：企划进度、合作信息、活动报名、技术更新。作为社区，我们又需要保留足够的松弛感：一条随笔、一段幕后、一次不完美的尝试。两种身份看似矛盾，但在实际呈现上是可以共存的——官方发布负责「准确」，社区内容负责「真实」，二者共同构成值得信赖的品牌形象。</p>
+      <p>因此你会在这个页面里同时看到专题正片与幕后手记、企业动态与用户评价、FAQ 与投稿入口。它们不是互相装饰，而是同一件事的不同切面：周希妍无极圣光是一个持续运营的影像品牌，也是一个持续生长的创作社区。</p>
+
+      <h3>四、关于品质与正版</h3>
+      <p>站内所有作品均为品牌原创或经作者授权发布，画质统一为高清，禁止未授权的搬运与二次剪辑。我们相信，对创作者劳动的尊重，是内容平台长期生存的前提。如果你在站内发现盗用或误标，欢迎通过页面底部的反馈入口告知，我们会尽快处理。这是「用户至上」在具体流程里的落点，也是品牌口碑能够积累的原因。</p>
+      <p>未来一年，周希妍无极圣光会继续做三件事：把《光的十二种呼吸》做成可长期更新的品牌栏目；把「无极光影挑战」办成社区每年期待的创作活动；把创作者扶持计划扩展到更多城市与更多方向的作者。我们不追求热点速度，而是希望这些内容在几年后依然值得点开。</p>
+    </div>
+
+    <aside class="zx-essay-aside">
+      <div class="zx-aside-card">
+        <h4>品牌速览</h4>
+        <ul>
+          <li><span>品牌名称</span><b>周希妍无极圣光</b></li>
+          <li><span>内容方向</span><b>原创光影影像</b></li>
+          <li><span>原创作品</span><b>128 支</b></li>
+          <li><span>专题企划</span><b>46 期</b></li>
+          <li><span>合作创作者</span><b>86 位</b></li>
+          <li><span>持续运营</span><b>第 6 年</b></li>
+        </ul>
+      </div>
+      <div class="zx-aside-plain">
+        <h4>内容准则</h4>
+        <p>原创优先：站内作品均为原创或经授权发布。</p>
+        <p>高清呈现：统一高清规格，保留原始画质。</p>
+        <p>尊重作者：署名完整，收益分配公开透明。</p>
+        <p>真实温暖：不制造焦虑，不夸大效果。</p>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ============ 作品墙 ============ -->
+<section class="zx-section">
+  <div class="zx-wrap">
+    <div class="zx-sec-head">
+      <div>
+        <h2>影像墙 · <em>社区的日常光</em></h2>
+        <p>来自社区创作者的九帧定格，题材不同，共同构成周希妍无极圣光的内容生态。</p>
+      </div>
+      <a class="zx-sec-link" href="#zx-contact">上传你的作品 →</a>
+    </div>
+
+    <div class="zx-wall">
+      <figure class="zx-wall-item zx-wall-w3 zx-wall-h2">
+        <svg viewBox="0 0 400 400" role="img" aria-label="晨雾中的山脊与第一道日光">
+          <rect width="400" height="400" fill="#2a3a44"/>
+          <circle cx="300" cy="120" r="66" fill="#ffd28a" opacity=".7"/>
+          <path d="M0 300 L100 200 L180 280 L260 190 L340 270 L400 220 L400 400 L0 400 Z" fill="#3f5a63"/>
+          <path d="M0 340 L120 260 L220 330 L320 270 L400 320 L400 400 L0 400 Z" fill="#2c4149"/>
+          <path d="M0 300 L120 240 L220 316 L330 252 L400 296" stroke="#8fb8bd" stroke-width="2" fill="none" opacity=".6"/>
+        </svg>
+        <span>晨雾山脊 · 禾木</span>
+      </figure>
+
+      <figure class="zx-wall-item zx-wall-w2 zx-wall-h2">
+        <svg viewBox="0 0 300 400" role="img" aria-label="手作木桌上的一排打磨工具">
+          <rect width="300" height="400" fill="#3b2c22"/>
+          <rect x="20" y="240" width="260" height="140" fill="#5a4432"/>
+          <rect x="50" y="140" width="26" height="120" rx="8" fill="#a9743c"/>
+          <rect x="96" y="110" width="22" height="150" rx="8" fill="#8b6d4a"/>
+          <rect x="140" y="150" width="26" height="110" rx="8" fill="#c98500"/>
+          <circle cx="220" cy="180" r="30" fill="#d9a05b"/>
+          <circle cx="220" cy="180" r="14" fill="#3b2c22"/>
+        </svg>
+        <span>打磨工具 · 周小满</span>
+      </figure>
+
+      <figure class="zx-wall-item zx-wall-w2">
+        <svg viewBox="0 0 300 200" role="img" aria-label="夜里亮着灯的老式路牌">
+          <rect width="300" height="200" fill="#1b2230"/>
+          <rect x="120" y="60" width="12" height="120" fill="#3a4453"/>
+          <rect x="60" y="46" width="180" height="60" rx="8" fill="#2c3646" stroke="#ffb648" stroke-width="2"/>
+          <circle cx="90" cy="76" r="8" fill="#ffb648"/>
+          <circle cx="210" cy="76" r="8" fill="#ffb648"/>
+          <path d="M40 180 L260 180" stroke="#3a4453" stroke-width="3"/>
+        </svg>
+        <span>老街路灯 · 林岫</span>
+      </figure>
+
+      <figure class="zx-wall-item zx-wall-w2">
+        <svg viewBox="0 0 300 200" role="img" aria-label="窗台上的陶盆与长出的新芽">
+          <rect width="300" height="200" fill="#e8ddcc"/>
+          <rect x="0" y="150" width="300" height="50" fill="#c9b79a"/>
+          <rect x="112" y="118" width="76" height="40" rx="8" fill="#a9743c"/>
+          <path d="M150 118 q0 -44 -22 -56 q22 -4 22 26 q0 -34 24 -44 q4 26 -24 42" stroke="#3f9c7a" stroke-width="4" fill="none"/>
+          <circle cx="126" cy="64" r="9" fill="#3f9c7a"/>
+          <circle cx="172" cy="58" r="9" fill="#6bc39a"/>
+        </svg>
+        <span>窗台新芽 · 叙述者</span>
+      </figure>
+
+      <figure class="zx-wall-item zx-wall-w3">
+        <svg viewBox="0 0 400 200" role="img" aria-label="城市高架桥上的车流轨迹">
+          <rect width="400" height="200" fill="#151b26"/>
+          <path d="M0 140 L400 96" stroke="#2c3646" stroke-width="34"/>
+          <path d="M0 134 L400 90" stroke="#4a5b70" stroke-width="2" opacity=".7"/>
+          <path d="M20 150 Q120 120 220 140 T400 118" stroke="#ffb648" stroke-width="2.4" fill="none" opacity=".85"/>
+          <path d="M0 172 Q140 150 260 168 T400 148" stroke="#a08cff" stroke-width="2.2" fill="none" opacity=".75"/>
+        </svg>
+        <span>高架车流 · 苏野</span>
+      </figure>
+
+      <figure class="zx-wall-item zx-wall-w2">
+        <svg viewBox="0 0 300 200" role="img" aria-label="桌上散落的旧胶片与胶卷盒">
+          <rect width="300" height="200" fill="#2b2118"/>
+          <rect x="0" y="130" width="300" height="70" fill="#4a3a2c"/>
+          <rect x="36" y="86" width="120" height="34" rx="4" fill="#8b6d4a" transform="rotate(-6 96 103)"/>
+          <rect x="50" y="94" width="16" height="12" fill="#1a1426" transform="rotate(-6 58 100)"/>
+          <rect x="76" y="90" width="16" height="12" fill="#1a1426" transform="rotate(-6 84 96)"/>
+          <rect x="102" y="86" width="16" height="12" fill="#1a1426" transform="rotate(-6 110 92)"/>
+          <rect x="160" y="60" width="60" height="60" rx="6" fill="#5f6b7a"/>
+          <circle cx="190" cy="90" r="18" fill="#2b2118"/>
+        </svg>
+        <span>旧胶片 · 陈不言</span>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 用户评价 ============ -->
+<section class="zx-section zx-section-alt">
+  <div class="zx-wrap">
+    <div class="zx-sec-head">
+      <div>
+        <h2>用户评价 · <em>来自社区的声音</em></h2>
+        <p>真实、长短不一的反馈。我们保留原文，只在明显失真的地方做标注。</p>
+      </div>
+    </div>
+
+    <div class="zx-review-grid">
+      <article class="zx-review">
+        <div class="zx-review-top">
+          <span class="zx-avatar" style="background:linear-gradient(135deg,#6b4bff,#a08cff)">阿</span>
+          <div><b>阿岚</b><br><span>创作者 · 关注 8 个月</span></div>
+        </div>
+        <div class="zx-review-stars">★★★★★</div>
+        <p>跟着教程那一期用台灯拍了一次晚饭，第一次觉得自己拍的片子能看。讲得很细，不求快，这点很难得。</p>
+      </article>
+
+      <article class="zx-review">
+        <div class="zx-review-top">
+          <span class="zx-avatar" style="background:linear-gradient(135deg,#ffb648,#e07a2b)">老</span>
+          <div><b>老周不加班</b><br><span>观众 · 关注 1 年</span></div>
+        </div>
+        <div class="zx-review-stars">★★★★★</div>
+        <p>《光的十二种呼吸》每集都很短，但每集都能记住一个画面。通勤路上看完一集刚刚好。</p>
+      </article>
+
+      <article class="zx-review">
+        <div class="zx-review-top">
+          <span class="zx-avatar" style="background:linear-gradient(135deg,#3f9c7a,#8bcf9f)">米</span>
+          <div><b>米粒</b><br><span>社区作者 · 关注 5 个月</span></div>
+        </div>
+        <div class="zx-review-stars">★★★★☆</div>
+        <p>投稿流程比较清楚，审核反馈也具体，会告诉你哪一段节奏可以再收。缺点是排期有点慢，但能理解。</p>
+      </article>
+
+      <article class="zx-review">
+        <div class="zx-review-top">
+          <span class="zx-avatar" style="background:linear-gradient(135deg,#2b6f8f,#6bc39a)">南</span>
+          <div><b>南风慢</b><br><span>观众 · 关注 2 年</span></div>
+        </div>
+        <div class="zx-review-stars">★★★★★</div>
+        <p>雨天那棵树看了三遍。不知道为什么，看完心里很安静。希望这样的内容多一点。</p>
+      </article>
+
+      <article class="zx-review">
+        <div class="zx-review-top">
+          <span class="zx-avatar" style="background:linear-gradient(135deg,#c98500,#ffb648)">晓</span>
+          <div><b>晓晴</b><br><span>志愿者 · 参与公益修复</span></div>
+        </div>
+        <div class="zx-review-stars">★★★★★</div>
+        <p>因为看了老照片修复那期，报名参加了社区活动。现场比视频里更累，但更值得。感谢这个平台把这件事拍下来。</p>
+      </article>
+
+      <article class="zx-review">
+        <div class="zx-review-top">
+          <span class="zx-avatar" style="background:linear-gradient(135deg,#e2555f,#ff8a8f)">橙</span>
+          <div><b>橙子酱</b><br><span>观众 · 新关注</span></div>
+        </div>
+        <div class="zx-review-stars">★★★★☆</div>
+        <p>页面很干净，找片子不用一层一层点进去。希望专题能加个按时间排序，翻老内容会方便一点。</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 企业动态 & 合作 ============ -->
+<section class="zx-section" id="zx-news">
+  <div class="zx-wrap">
+    <div class="zx-sec-head">
+      <div>
+        <h2>企业动态 · <em>官方发布</em></h2>
+        <p>企划进度、活动报名、合作信息与内容更新，均在此同步。</p>
+      </div>
+      <a class="zx-sec-link" href="#zx-contact">媒体与合作联络 →</a>
+    </div>
+
+    <div class="zx-news-grid">
+      <ul class="zx-news-list">
+        <li>
+          <div class="zx-news-date"><b>11.18</b>2026</div>
+          <div>
+            <h4>《光的十二种呼吸》第 12 集上线，专题正式完结</h4>
+            <p>历时一年拍摄的城市光影专题完成更新，同步发布幕后合集与导演手记，站内可查看完整片单。</p>
+          </div>
+        </li>
+        <li>
+          <div class="zx-news-date"><b>11.16</b>2026</div>
+          <div>
+            <h4>第二届「无极光影挑战」开放报名</h4>
+            <p>面向全体社区创作者，主题为「我身边的一束光」，投稿截止 12 月 20 日，设新人组与进阶组。</p>
+          </div>
+        </li>
+        <li>
+          <div class="zx-news-date"><b>11.12</b>2026</div>
+          <div>
+            <h4>创作者扶持计划第四期名单公布</h4>
+            <p>本期新增 18 位签约作者，覆盖纪实、手作、自然记录等方向，将为入选者提供拍摄资源与专题企划支持。</p>
+          </div>
+        </li>
+        <li>
+          <div class="zx-news-date"><b>11.05</b>2026</div>
+          <div>
+            <h4>站内播放体验升级：支持清晰度切换与片单收藏</h4>
+            <p>本次更新优化了高清播放的加载策略，新增个人片单与收藏同步功能，移动端首屏加载速度提升明显。</p>
+          </div>
+        </li>
+        <li>
+          <div class="zx-news-date"><b>10.28</b>2026</div>
+          <div>
+            <h4>与四家在地文化机构达成内容合作</h4>
+            <p>合作将围绕城市影像档案与公共文化空间展开，首批联合作品预计于 2027 年第一季度发布。</p>
+          </div>
+        </li>
+      </ul>
+
+      <div>
+        <h3 style="font-size:15px;margin-bottom:14px;color:var(--zx-text-soft);letter-spacing:.06em">合作品牌与伙伴</h3>
+        <div class="zx-partner-grid">
+          <div class="zx-partner">光相影像馆</div>
+          <div class="zx-partner">在地文化中心</div>
+          <div class="zx-partner">慢刻手作社</div>
+          <div class="zx-partner">城市观察所</div>
+          <div class="zx-partner">青禾影像实验室</div>
+          <div class="zx-partner">无极光影联盟</div>
+        </div>
+        <div class="zx-aside-plain" style="margin-top:18px">
+          <h4>品牌承诺</h4>
+          <p>所有对外发布内容均经作者授权，标注来源与署名；合作内容与原创内容明确区分，不做隐性推广。</p>
+          <p>如需内容合作、授权咨询或媒体采访，请通过下方联系入口与我们取得联系，工作日 24 小时内回复。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="zx-section zx-section-alt" id="zx-faq">
+  <div class="zx-wrap">
+    <div class="zx-sec-head">
+      <div>
+        <h2>帮助中心 · <em>常见问题</em></h2>
+        <p>关于观看、投稿、版权与合作的高频问题，点开即可查看。</p>
+      </div>
+    </div>
+
+    <div class="zx-faq">
+      <details open>
+        <summary>周希妍无极圣光是怎样的品牌？</summary>
+        <p>周希妍无极圣光是一个以原创光影影像为核心的品牌，官方网站用于发布品牌自制内容、专题企划与创作者动态，同时向社区开放投稿与活动报名。</p>
+      </details>
+      <details>
+        <summary>站内作品可以转载或二次剪辑吗？</summary>
+        <p>站内作品均为原创或经作者授权发布，版权归作者与品牌共同所有。未经书面授权，请勿搬运、二次剪辑或用于商业用途。如需授权，请通过联系入口说明用途。</p>
+      </details>
+      <details>
+        <summary>如何向平台投稿自己的短片？</summary>
+        <p>点击页面中的「投稿报名」按钮填写表单，附上作品链接与简要创作说明即可。我们会在 5 个工作日内给出初审反馈，通过后进入排期。</p>
+      </details>
+      <details>
+        <summary>投稿对设备和时长有要求吗？</summary>
+        <p>没有硬性设备要求，手机拍摄同样欢迎。建议成片时长控制在 4 至 20 分钟之间，画面稳定、声音清楚，并确保素材为本人原创或已获授权。</p>
+      </details>
+      <details>
+        <summary>「无极光影挑战」如何报名？</summary>
+        <p>在活动期内通过投稿表单提交作品并在备注中注明「光影挑战」，即视为报名成功。新人组不限经验，进阶组需提交至少一支公开作品。</p>
+      </details>
+      <details>
+        <summary>创作者扶持计划提供哪些支持？</summary>
+        <p>入选作者可获得拍摄资源支持、专题企划参与资格、内容运营建议与站内推荐位。具体权益根据方向与阶段不同，会在入选后书面确认。</p>
+      </details>
+      <details>
+        <summary>发现内容被盗用或标注错误怎么办？</summary>
+        <p>请通过下方的反馈入口提交说明与证明材料，我们会在核实后尽快处理，并对有效举报给予回复。平台对侵权内容保持零容忍。</p>
+      </details>
+      <details>
+        <summary>是否支持企业或机构的内容合作？</summary>
+        <p>支持。我们与在地文化机构、影像空间与生活方式品牌均有合作经验，合作形式包括联合企划、影像定制与公共放映。请通过合作联络说明需求。</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 联系 ============ -->
+<section class="zx-section" id="zx-contact">
+  <div class="zx-wrap">
+    <div class="zx-contact">
+      <div>
+        <h2>投稿、合作与反馈，从这里开始</h2>
+        <p>无论你是想提交一支短片、报名参加光影挑战，还是希望与企业团队洽谈内容合作，都可以通过下面的入口与我们取得联系。周希妍无极圣光期待与更多创作者一起，把日常里的光记录下来。</p>
+        <div class="zx-contact-actions">
+          <button class="zx-btn zx-btn-primary" type="button" id="zx-open-submit">进入投稿报名</button>
+          <button class="zx-btn zx-btn-ghost" type="button" id="zx-open-feedback">提交反馈</button>
+          <button class="zx-btn zx-btn-ghost" type="button" id="zx-open-share">分享本页</button>
+        </div>
+      </div>
+      <div class="zx-contact-info">
+        <div><b>合作联络</b>brand@wujiholylight.example（工作日 24 小时内回复）</div>
+        <div><b>投稿咨询</b>提交后请留意表单内填写的联系方式</div>
+        <div><b>内容准则</b>原创优先 · 署名完整 · 高清呈现</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ 页脚 ============ -->
+<footer class="zx-footer">
+  <div class="zx-wrap">
+    <div class="zx-footer-grid">
+      <div class="zx-footer-brand">
+        <a class="zx-logo" href="#zx-top">
+          <span class="zx-logo-mark">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5 L19 12 L8 19 Z" fill="#fff8ee"/></svg>
+          </span>
+          <span class="zx-logo-text"><b>周希妍无极圣光</b><span>WUJI HOLY LIGHT</span></span>
+        </a>
+        <p>周希妍无极圣光官方网站，专注原创光影影像的品牌内容平台。持续运营第六年，累计发布 128 支原创作品与 46 期专题企划，与 86 位创作者共同成长。</p>
+      </div>
+
+      <div>
+        <h5>浏览内容</h5>
+        <ul>
+          <li><a href="#zx-focus">焦点内容</a></li>
+          <li><a href="#zx-videos">影像档案</a></li>
+          <li><a href="#zx-topics">专题企划</a></li>
+          <li><a href="#zx-creators">创作者矩阵</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h5>关于品牌</h5>
+        <ul>
+          <li><a href="#zx-essay">品牌解析</a></li>
+          <li><a href="#zx-news">企业动态</a></li>
+          <li><a href="#zx-faq">帮助中心</a></li>
+          <li><a href="#zx-contact">合作联络</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h5>参与方式</h5>
+        <ul>
+          <li><a href="#zx-contact">作品投稿</a></li>
+          <li><a href="#zx-news">活动报名</a></li>
+          <li><a href="#zx-creators">创作者计划</a></li>
+          <li><a href="#zx-contact">问题反馈</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="zx-footer-bottom">
+      <span>© 2026 周希妍无极圣光 版权所有 · 官方网站持续运营中</span>
+      <span>原创内容受版权保护 · 未经授权禁止转载 · 备案信息以官方公告为准</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ 弹窗 ============ -->
+<div class="zx-modal-mask" id="zx-modal-mask">
+  <div class="zx-modal-wrap">
+    <div class="zx-modal" id="zx-modal"></div>
+  </div>
+</div>
+
+<div class="zx-toast" id="zx-toast">已复制</div>
+<button class="zx-top" id="zx-top-btn" type="button" aria-label="回到顶部">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<script>
+(function(){
+  'use strict';
+
+  var toastEl = document.getElementById('zx-toast');
+  var toastTimer = null;
+  function toast(msg){
+    toastEl.textContent = msg;
+    toastEl.classList.add('on');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove('on'); }, 2100);
+  }
+
+  /* ---------- 移动端导航 ---------- */
+  var menuToggle = document.getElementById('zx-menu-toggle');
+  var mobileNav = document.getElementById('zx-mobile-nav');
+  menuToggle.addEventListener('click', function(){
+    var open = mobileNav.classList.toggle('on');
+    menuToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  mobileNav.addEventListener('click', function(e){
+    if(e.target.tagName === 'A'){
+      mobileNav.classList.remove('on');
+      menuToggle.setAttribute('aria-expanded','false');
+    }
+  });
+
+  /* ---------- 搜索反馈 ---------- */
+  var searchInput = document.getElementById('zx-search-input');
+  var searchBtn = document.getElementById('zx-search-btn');
+  var searchTip = document.getElementById('zx-search-tip');
+
+  function doSearch(){
+    var q = searchInput.value.trim();
+    if(!q){
+      toast('请输入关键词再搜索');
+      return;
+    }
+    toast('正在为你检索「' + q + '」相关内容');
+    searchTip.classList.remove('on');
+  }
+  searchBtn.addEventListener('click', doSearch);
+  searchInput.addEventListener('keydown', function(e){
+    if(e.key === 'Enter'){ doSearch(); }
+  });
+  searchInput.addEventListener('focus', function(){ searchTip.classList.add('on'); });
+  document.addEventListener('click', function(e){
+    if(!searchTip.contains(e.target) && e.target !== searchInput){
+      searchTip.classList.remove('on');
+    }
+  });
+  searchTip.addEventListener('click', function(e){
+    if(e.target.tagName === 'SPAN'){
+      searchInput.value = e.target.getAttribute('data-q');
+      doSearch();
+    }
+  });
+
+  /* ---------- 点赞 / 收藏 ---------- */
+  document.querySelectorAll('.zx-like').forEach(function(btn){
+    var num = btn.querySelector('b');
+    var count = parseInt(btn.getAttribute('data-count') || '0', 10);
+    num.textContent = count;
+    btn.addEventListener('click', function(){
+      var liked = btn.classList.toggle('liked');
+      count += liked ? 1 : -1;
+      if(count < 0){ count = 0; }
+      num.textContent = count;
+      toast(liked ? '已点赞，感谢支持' : '已取消点赞');
+    });
+  });
+
+  document.querySelectorAll('.zx-fav').forEach(function(btn){
+    var label = btn.querySelector('b');
+    btn.addEventListener('click', function(){
+      var faved = btn.classList.toggle('faved');
+      label.textContent = faved ? '已收藏' : '收藏';
+      toast(faved ? '已加入收藏片单' : '已取消收藏');
+    });
+  });
+
+  /* ---------- 数据数字滚动 ---------- */
+  var counters = document.querySelectorAll('.zx-count');
+  function animateCount(el){
+    var target = parseInt(el.getAttribute('data-target'), 10);
+    var cur = 0;
+    var step = Math.max(1, Math.round(target / 40));
+    var timer = setInterval(function(){
+      cur += step;
+      if(cur >= target){ cur = target; clearInterval(timer); }
+      el.textContent = cur;
+    }, 32);
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){
+          animateCount(en.target);
+          io.unobserve(en.target);
+        }
+      });
+    }, {threshold: .5});
+    counters.forEach(function(c){ io.observe(c); });
+  } else {
+    counters.forEach(animateCount);
+  }
+
+  /* ---------- 弹窗基础 ---------- */
+  var mask = document.getElementById('zx-modal-mask');
+  var modal = document.getElementById('zx-modal');
+
+  function openModal(html){
+    modal.innerHTML = '<button class="zx-modal-close zx-btn zx-btn-ghost" type="button" style="position:absolute;top:-6px;right:-4px;height:30px;padding:0 12px;font-size:12px" data-close="1">关闭</button>' + html;
+    mask.classList.add('on');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeModal(){
+    mask.classList.remove('on');
+    document.body.style.overflow = '';
+  }
+  mask.addEventListener('click', function(e){
+    if(e.target === mask || e.target.closest('[data-close]')){ closeModal(); }
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape'){ closeModal(); }
+  });
+
+  /* ---------- 影片播放提示 ---------- */
+  document.querySelectorAll('.zx-open-video, .zx-cover-play').forEach(function(el){
+    el.addEventListener('click', function(e){
+      e.preventDefault();
+      var card = el.closest('.zx-video-card');
+      var title = el.getAttribute('data-title');
+      if(!title && card){
+        title = card.querySelector('h4') ? card.querySelector('h4').textContent : '本期推荐影像';
+      }
+      openModal(
+        '<h3>' + (title || '本期推荐影像') + '</h3>' +
+        '<p>演示页面暂不承载播放能力。该作品为周希妍无极圣光原创或经授权发布，正式上线后可在此处进入高清播放。</p>' +
+        '<div class="zx-share-row">' +
+        '<button type="button" data-act="copy">复制作品链接</button>' +
+        '<button type="button" data-act="fav">加入收藏片单</button>' +
+        '</div>' +
+        '<div class="zx-modal-actions"><button class="zx-btn zx-btn-primary" type="button" data-close="1">知道了</button></div>'
+      );
+    });
+  });
+
+  /* ---------- 分享 ---------- */
+  function shareHtml(){
+    return '<h3>分享本页</h3>' +
+      '<p>把周希妍无极圣光的品牌页分享给同样喜欢影像的朋友。</p>' +
+      '<div class="zx-share-row">' +
+      '<button type="button" data-share="wechat">微信</button>' +
+      '<button type="button" data-share="weibo">微博</button>' +
+      '<button type="button" data-share="qq">QQ</button>' +
+      '<button type="button" data-act="copy">复制页面链接</button>' +
+      '</div>';
+  }
+  document.getElementById('zx-open-share').addEventListener('click', function(){
+    openModal(shareHtml());
+  });
+  document.querySelectorAll('.zx-share').forEach(function(btn){
+    btn.addEventListener('click', function(){ openModal(shareHtml()); });
+  });
+
+  /* ---------- 复制链接 ---------- */
+  function copyLink(){
+    var link = 'https://brand.wujiholylight.example/';
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(link).then(function(){
+        toast('链接已复制，可粘贴分享');
+      }).catch(function(){
+        toast('复制失败，请手动记录页面地址');
+      });
+    } else {
+      toast('当前环境不支持自动复制');
+    }
+  }
+
+  /* ---------- 作者档案弹窗 ---------- */
+  document.querySelectorAll('.zx-open-creator').forEach(function(el){
+    el.addEventListener('click', function(){
+      var name = el.getAttribute('data-name');
+      var bio = el.getAttribute('data-bio');
+      openModal(
+        '<h3>' + name + '</h3>' +
+        '<p>' + bio + '</p>' +
+        '<div class="zx-share-row">' +
+        '<button type="button" data-act="follow">关注该创作者</button>' +
+        '<button type="button" data-act="copy">复制创作者主页链接</button>' +
+        '</div>' +
+        '<div class="zx-modal-actions"><button class="zx-btn zx-btn-primary" type="button" data-close="1">关闭</button></div>'
+      );
+    });
+  });
+
+  /* ---------- 投稿弹窗 ---------- */
+  document.getElementById('zx-open-submit').addEventListener('click', function(){
+    openModal(
+      '<h3>作品投稿 / 活动报名</h3>' +
+      '<p>填写基本信息即可进入初审。若同时报名「无极光影挑战」，请在作品说明中注明。</p>' +
+      '<label for="zx-f-name">作者昵称</label>' +
+      '<input id="zx-f-name" type="text" placeholder="用于署名展示">' +
+      '<label for="zx-f-contact">联系方式</label>' +
+      '<input id="zx-f-contact" type="text" placeholder="邮箱或常用社交账号">' +
+      '<label for="zx-f-title">作品标题</label>' +
+      '<input id="zx-f-title" type="text" placeholder="例如：在雨天记录一棵树">' +
+      '<label for="zx-f-type">投稿类型</label>' +
+      '<select id="zx-f-type"><option>原创短片</option><option>专题企划投稿</option><option>无极光影挑战报名</option><option>创作者计划申请</option></select>' +
+      '<label for="zx-f-note">作品说明</label>' +
+      '<textarea id="zx-f-note" placeholder="简要说明创作背景、时长与素材授权情况"></textarea>' +
+      '<div class="zx-modal-actions">' +
+      '<button class="zx-btn zx-btn-ghost" type="button" data-close="1">取消</button>' +
+      '<button class="zx-btn zx-btn-primary" type="button" id="zx-submit-form">提交</button>' +
+      '</div>'
+    );
+  });
+
+  /* ---------- 反馈弹窗 ---------- */
+  document.getElementById('zx-open-feedback').addEventListener('click', function(){
+    openModal(
+      '<h3>问题反馈</h3>' +
+      '<p>如发现内容标注错误、版权问题或页面异常，请在此说明。</p>' +
+      '<label for="zx-b-type">反馈类型</label>' +
+      '<select id="zx-b-type"><option>内容标注问题</option><option>版权与授权</option><option>页面使用异常</option><option>合作与建议</option></select>' +
+      '<label for="zx-b-contact">联系方式</label>' +
+      '<input id="zx-b-contact" type="text" placeholder="便于我们回复你">' +
+      '<label for="zx-b-detail">问题描述</label>' +
+      '<textarea id="zx-b-detail" placeholder="请尽量描述具体位置与情况"></textarea>' +
+      '<div class="zx-modal-actions">' +
+      '<button class="zx-btn zx-btn-ghost" type="button" data-close="1">取消</button>' +
+      '<button class="zx-btn zx-btn-primary" type="button" id="zx-submit-feedback">提交反馈</button>' +
+      '</div>'
+    );
+  });
+
+  /* ---------- 弹窗内事件委托 ---------- */
+  modal.addEventListener('click', function(e){
+    var t = e.target;
+    if(t.getAttribute('data-act') === 'copy' || t.getAttribute('data-share')){
+      var shareType = t.getAttribute('data-share');
+      if(shareType){
+        toast('已唤起' + (shareType === 'wechat' ? '微信' : shareType === 'weibo' ? '微博' : 'QQ') + '分享入口');
+      } else {
+        copyLink();
+      }
+      return;
+    }
+    if(t.getAttribute('data-act') === 'fav'){
+      t.textContent = '已加入收藏片单';
+      toast('已加入收藏片单');
+      return;
+    }
+    if(t.getAttribute('data-act') === 'follow'){
+      t.textContent = '已关注';
+      toast('已关注该创作者');
+      return;
+    }
+    if(t.id === 'zx-submit-form'){
+      var nameEl = document.getElementById('zx-f-name');
+      var titleEl = document.getElementById('zx-f-title');
+      if(nameEl && !nameEl.value.trim()){
+        toast('请先填写作者昵称');
+        return;
+      }
+      if(titleEl && !titleEl.value.trim()){
+        toast('请填写作品标题');
+        return;
+      }
+      closeModal();
+      toast('投稿已提交，工作人员将在 5 个工作日内反馈');
+      return;
+    }
+    if(t.id === 'zx-submit-feedback'){
+      var detail = document.getElementById('zx-b-detail');
+      if(detail && detail.value.trim().length < 5){
+        toast('请把问题描述得更具体一些');
+        return;
+      }
+      closeModal();
+      toast('反馈已收到，感谢你的帮助');
+    }
+  });
+
+  /* ---------- 回到顶部 ---------- */
+  var topBtn = document.getElementById('zx-top-btn');
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 620){ topBtn.classList.add('on'); }
+    else { topBtn.classList.remove('on'); }
+  }, {passive:true});
+  topBtn.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+
+})();
+</script>
+</body>
+              </html>
